@@ -1,0 +1,26 @@
+{
+  "name": "craft-json-snippets",
+  "version": "1.0.0",
+  "description": "Snippets for generating models in CraftCMS",
+  "main": "snippets.cson",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emkaytoo/craft-json-snippets.git"
+  },
+  "keywords": [
+    "snippets",
+    "atom",
+    "CraftCMS",
+    "json",
+    "models"
+  ],
+  "author": "Ian DeRanieri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emkaytoo/craft-json-snippets/issues"
+  },
+  "homepage": "https://github.com/Emkaytoo/craft-json-snippets#readme"
+}

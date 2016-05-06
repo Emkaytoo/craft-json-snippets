@@ -1,0 +1,112 @@
+# The snippets below help you quickly generate .json models for CraftCMS.
+#
+# They work really well with the CMS-Generator plugin, available at
+# http://github.com/Pennebaker/craftcms-generator
+
+
+
+'.source.json':
+  'Assets':
+    'prefix': 'CraftAssets'
+    'body': """
+    {
+      "group": "",
+      "name": "",
+      "handle": "",
+      "instructions": "",
+      "type": "Assets",
+      "typesettings": {
+        "useSingleFolder": ,
+        "defaultUploadLocationSubpath": "",
+        "restrictFiles": ,
+        "allowedKinds": [
+          "Access",
+          "Audio",
+          "Compressed",
+          "Excel",
+          "Flash",
+          "HTML",
+          "Illustrator",
+          "Image",
+          "Javascript",
+          "JSON",
+          "PDF",
+          "Photoshop",
+          "PHP",
+          "PowerPoint",
+          "Text",
+          "Video",
+          "Word",
+          "XML"
+        ],
+        "limit": 3,
+        "viewMode": ""
+        "selectionLabel": ""
+      }
+    },
+    """
+  'Categories':
+    'prefix': 'CraftCategories'
+    'body': """
+    {
+      "group": "",
+      "name": "",
+      "handle": "",
+      "instructions": "",
+      "type": "Categories",
+      "typesettings": {
+        "useSingleFolder": ,
+        "limit": ,
+        "selectionLabel": ""
+      }
+    },
+    """
+  'Checkboxes':
+    'prefix': 'CraftCheckboxes'
+    'body': """
+    {
+      "group": "",
+      "name": "",
+      "handle": "",
+      "instructions": "",
+      "type": "",
+      "typesettings": {
+        "options": [
+          {
+            "label": "",
+            "value": "",
+            "default":
+          }
+        ]
+      }
+    },
+    """
+
+
+
+
+
+
+
+
+
+
+
+
+
+  'Plain Text Field':
+    'prefix': 'plaintext'
+    'body': """
+      {
+        "group": "",
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "PlainText",
+        "typesettings": {
+            "placeholder": "",
+            "maxLength": 30,
+            "multiline": false
+          }
+      }
+      """

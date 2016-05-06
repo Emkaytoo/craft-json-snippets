@@ -266,7 +266,7 @@
 		  },
 		'''
 	RadioButtons:
-		prefix: "CraftRadioButton"
+		prefix: "CraftRadioButtons"
 		body: '''
 			{
 		    "group": "",

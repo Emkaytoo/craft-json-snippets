@@ -4,487 +4,580 @@
 # http://github.com/Pennebaker/craftcms-generator
 
 
-
-'.source.json':
-  'Assets':
-    'prefix': 'CraftAssets'
-    'body': """
-            {
-              "group": "",
-              "name": "",
-              "handle": "",
-              "instructions": "",
-              "type": "Assets",
-              "typesettings": {
-                "useSingleFolder": ,
-                "defaultUploadLocationSubpath": "",
-                "restrictFiles": ,
-                "allowedKinds": [
-                  "Access",
-                  "Audio",
-                  "Compressed",
-                  "Excel",
-                  "Flash",
-                  "HTML",
-                  "Illustrator",
-                  "Image",
-                  "Javascript",
-                  "JSON",
-                  "PDF",
-                  "Photoshop",
-                  "PHP",
-                  "PowerPoint",
-                  "Text",
-                  "Video",
-                  "Word",
-                  "XML"
-                ],
-                "limit": 3,
-                "viewMode": "",
-                "selectionLabel": ""
-              }
-            },
-            """
-  'Categories':
-    'prefix': 'CraftCategories'
-    'body': """
-            {
-              "group": "",
-              "name": "",
-              "handle": "",
-              "instructions": "",
-              "type": "Categories",
-              "typesettings": {
-                "useSingleFolder": ,
-                "limit": ,
-                "selectionLabel": ""
-              }
-            },
-            """
-  'Checkboxes':
-    'prefix': 'CraftCheckboxes'
-    'body': """
-            {
-              "group": "",
-              "name": "",
-              "handle": "",
-              "instructions": "",
-              "type": "Checkboxes",
-              "typesettings": {
-                "options": [
-                  {
-                    "label": "",
-                    "value": "",
-                    "default":
-                  }
-                ]
-              }
-            },
-            """
-    'Color':
-      'prefix': 'CraftColor'
-      'body': """
-                {
-                  "group": "",
-                  "name": "",
-                  "handle": "",
-                  "instructions": "",
-                  "type": "Color"
-              }
-                """
-      'Date':
-        'prefix': 'CraftDate'
-        'body': """
-                    {
-                    "group": "",
-                    "name": "",
-                    "handle": "",
-                    "instructions": "",
-                    "type": "Date",
-                    "typesettings": {
-                        "dateTime": "showDate", // or "showTime" or "showBoth"
-                        "minuteIncrement": 15 // or 30 or 60
-                    }
-                },
-                    """
-  'Dropdown':
-    'prefix': 'CraftDropdown'
-    'body': """
-            {
-              "group": "",
-              "name": "",
-              "handle": "",
-              "instructions": "",
-              "type": "Dropdown",
-              "typesettings": {
-                "options": [
-                  {
-                    "label": "",
-                    "value": "",
-                    "default":
-                  }
-                ]
-              }
-            },
-            """
-  'Entries':
-    'prefix': 'CraftEntries'
-    'body': """
-            {
-                "group": "",
-                "name": "",
-                "handle": "",
-                "instructions": "",
-                "type": "Entries",
-                "typesettings": {
-                    "limit": ,
-                    "selectionLabel": ""
-                }
-            },
-            """
-  'Lightswitch':
-    'prefix': 'CraftLightswitch'
-    'body': """
-              {
-                "group": "Default",
-                "name": "",
-                "handle": "",
-                "instructions": "",
-                "type": "Lightswitch",
-                "typesettings": {
-                    "default": true
-                }
-            },
-              """
-  'Matrix':
-    'prefix': 'CraftMatrix'
-    'body': """
-            {
-                "group": "",
-                "name": "",
-                "handle": "",
-                "instructions": "",
-                "type": "Matrix",
-                "typesettings": {
-                    "maxBlocks": 9,
-                    "blockTypes": {
-                    }
-                }
-            },
-            """
-  'Matrix - New Block':
-    'prefix': 'CraftMatrixBlock'
-    'body': """
-              "new#": {
-                "name": "",
-                "handle": "",
-                "fields": {
-
-                }
-            },
-            """
-  'Matrix - New Field':
-      'prefix': 'CraftMatrixField'
-      'body': """
-               "new#": {
-                          "name": "",
-                          "handle": "", // Unlike above this is is not optional
-                          "instructions": "",
-                          "required": ,
-                          "type": "",
-                          "typesettings": {
-
-                          }
-                        },
-              """
-  'Multiselect':
-        'prefix': 'CraftMultiselect'
-        'body': """
-                {
-                  "group": "",
-                  "name": "",
-                  "handle": "",
-                  "instructions": "",
-                  "type": "Multiselect",
-                  "typesettings": {
-                    "options": [
-                      {
-                        "label": "",
-                        "value": "",
-                        "default":
-                      }
-                    ]
-                  }
-                },
-                """
-  'Number':
-      'prefix': 'CraftNumber'
-      'body': """
-                    {
-                    "group": "",
-                    "name": "",
-                    "handle": "",
-                    "instructions": "",
-                    "type": "Number",
-                    "typesettings": {
-                        "min": 0,
-                        "max": 100,
-                        "decimals": 2
-                    }
-                },
-                    """
-  'Plain Text Field':
-    'prefix': 'plaintext'
-    'body': """
-            {
-              "group": "",
-              "name": "",
-              "handle": "",
-              "instructions": "",
-              "type": "PlainText",
-              "typesettings": {
-                  "placeholder": "",
-                  "maxLength": 30,
-                  "multiline": false
-                }
-            },
-            """
-  'Position Select':
-    'prefix': 'CraftPositionSelect'
-    'body': """
-      {
-          "group": "",
-          "name": "",
-          "handle": "",
-          "instructions": "",
-          "type": "PositionSelect",
-          "typesettings": {
-              "left": true,
-              "center": true,
-              "right": true,
-              "full": true,
-              "drop-left": false,
-              "drop-right": false
-          }
-      },
-    """
-  'RadioButtons':
-    'prefix': 'CraftRadioButton'
-    'body': """
-      {
-        "group": "",
+".source.json":
+	Assets:
+		prefix: "CraftAssets"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Assets",
+			  "typesettings": {
+			    "useSingleFolder": false,
+			    "defaultUploadLocationSubpath": "",
+			    "restrictFiles": true,
+			    "allowedKinds": [
+			      "Access",
+			      "Audio",
+			      "Compressed",
+			      "Excel",
+			      "Flash",
+			      "HTML",
+			      "Illustrator",
+			      "Image",
+			      "Javascript",
+			      "JSON",
+			      "PDF",
+			      "Photoshop",
+			      "PHP",
+			      "PowerPoint",
+			      "Text",
+			      "Video",
+			      "Word",
+			      "XML"
+			    ],
+			    "limit": 3,
+			    "viewMode": "",
+			    "selectionLabel": ""
+			  }
+			},
+		'''
+	Categories:
+		prefix: "CraftCategories"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Categories",
+			  "typesettings": {
+			    "useSingleFolder": false,
+			    "limit": 3,
+			    "selectionLabel": ""
+			  }
+			},
+		'''
+	Checkboxes:
+		prefix: "CraftCheckboxes"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Checkboxes",
+			  "typesettings": {
+			    "options": [
+			      {
+			        "label": "",
+			        "value": "",
+			        "default": true
+			      }
+			    ]
+			  }
+			},
+		'''
+	Color:
+		prefix: "CraftColor"
+		body: '''
+		  {
+				"group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "Color"
+			},
+		'''
+	Date:
+		prefix: "CraftDate"
+		body: '''
+	    {
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "Date",
+		    "typesettings": {
+		        "dateTime": "showDate",
+		        "minuteIncrement": 15
+		    }
+			},
+		'''
+	Dropdown:
+		prefix: "CraftDropdown"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Dropdown",
+			  "typesettings": {
+			    "options": [
+			      {
+			        "label": "",
+			        "value": "",
+			        "default": true
+			      }
+			    ]
+			  }
+			},
+		'''
+	Entries:
+		prefix: "CraftEntries"
+		body: '''
+			{
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "Entries",
+		    "typesettings": {
+		        "limit": 3,
+		        "selectionLabel": ""
+		    }
+			},
+		'''
+	Lightswitch:
+		prefix: "CraftLightswitch"
+		body: '''
+		  {
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "Lightswitch",
+		    "typesettings": {
+		        "default": true
+		    }
+			},
+		'''
+	Matrix:
+		prefix: "CraftMatrix"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Matrix",
+			  "typesettings": {
+			    "maxBlocks": 9,
+			    "blockTypes": {
+			    }
+			  }
+			},
+		'''
+	"Matrix - New Block":
+		prefix: "CraftMatrixBlock"
+		body: '''
+		  "new#": {
         "name": "",
         "handle": "",
-        "instructions": "",
-        "type": "Multiselect",
-        "typesettings": {
-          "options": [
-            {
-              "label": "",
-              "value": "",
-              "default":
-            }
-          ]
+        "fields": {
         }
       },
-    """
-  'Rich Text':
-    'prefix': 'CraftRichText'
-    'body': """
-      {
-        "group": "",
-        "name": "",
+		'''
+	"Matrix - New Field":
+		prefix: "CraftMatrixField"
+		body: '''
+			"new#": {
+				"name": "",
+				"handle": "",
+				"instructions": "",
+				"required": "",
+				"type": "",
+				"typesettings": {
+				}
+			},
+		'''
+	Multiselect:
+		prefix: "CraftMultiselect"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Multiselect",
+			  "typesettings": {
+			    "options": [
+			      {
+			        "label": "",
+			        "value": "",
+			        "default": true
+			      }
+			    ]
+			  }
+			},
+		'''
+	Number:
+		prefix: "CraftNumber"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Number",
+			  "typesettings": {
+			    "min": 0,
+			    "max": 100,
+			    "decimals": 2
+			  }
+			},
+		'''
+	PlainText:
+		prefix: "CraftPlainText"
+		body: '''
+		{
+		  "group": "",
+		  "name": "",
+		  "handle": "",
+		  "instructions": "",
+		  "type": "PlainText",
+		  "typesettings": {
+		    "placeholder": "",
+		    "maxLength": 30,
+		    "multiline": false
+		  }
+		},
+		'''
+	PositionSelect:
+		prefix: "CraftPositionSelect"
+		body: '''
+			{
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "PositionSelect",
+		    "typesettings": {
+		      "left": true,
+		      "center": true,
+		      "right": true,
+		      "full": true,
+		      "drop-left": false,
+		      "drop-right": false
+		    }
+		  },
+		'''
+	RadioButtons:
+		prefix: "CraftRadioButton"
+		body: '''
+			{
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "RadioButtons",
+		    "typesettings": {
+		      "options": [
+		        {
+		          "label": "",
+		          "value": "",
+		          "default": true
+		        }
+		      ]
+		    }
+		  },
+		'''
+	RichText:
+		prefix: "CraftRichText"
+		body: '''
+		  {
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "RichText",
+		    "typesettings": {
+		      "configFile": "",
+		      "cleanupHtml": true,
+		      "purifyHtml": false,
+		      "columnType": ""
+		    }
+		  },
+		'''
+	Table:
+		prefix: "CraftTable"
+		body: '''
+			{
+			  "group": "",
+			  "name": "",
+			  "handle": "",
+			  "instructions": "",
+			  "type": "Table",
+			  "typesettings": {
+			    "columns": {
+			    },
+			    "defaults": {
+			    }
+			  }
+			},
+		'''
+	"Table - New Column":
+		prefix: "CraftTableColumn"
+		body: '''
+			"col#": {
+        "heading": "",
         "handle": "",
-        "instructions": "",
-        "type": "RichText",
-        "typesettings": {
-            "configFile": "",
-            "cleanupHtml": ,
-            "purifyHtml": ,
-            "columnType": "text" // or "mediumtext"
-        }
-    },
-    """
-  'Table':
-    'prefix': 'CraftTable'
-    'body': """
-      {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
-        "type": "Table",
-        "typesettings": {
-            "columns": {
-
-                }
-            },
-            "defaults": {
-
-            }
-        }
-    },
-    """
-  'Table - New Column':
-    'prefix': 'CraftTableColumn'
-    'body': """
-      "col#": {
-          "heading": "",
-          "handle": "",
-          "width": "",
-          "type": "singleline" // or "multiline" or "number" or "checkbox"
+        "width": "",
+        "type": ""
       },
-    """
-  'Table - New Default Row':
-    'prefix': 'CraftTableRow'
-    'body': """
-      "row#": {
-          "col1": "",
+		'''
+	"Table - New Default Row":
+		prefix: "CraftTableRow"
+		body: '''
+			"row1": {
+        "col#": "",
       },
-    """
-  'Tags':
-    'prefix': 'CraftTags'
-    'body': """
-      {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
-        "type": "Tags",
-        "typesettings": {
-            "selectionLabel": "Add a tag"
-        }
-    },
-    """
-  'Users':
-    'prefix': 'CraftUsers'
-    'body': """
-      {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
-        "type": "Users",
-        "typesettings": {
-            "sources": [
-              "admins"
-              ],
-            "selectionLabel": "Add a user"
-        }
-    },
-    """
-  'Single - Homepage':
-    'prefix': 'CraftHomePage'
-    'body': """
-      {
-        "name": "",
-        "handle": "",
-        "type": "single",
-        "enableVersioning": true,
-        "typesettings": {
-            "homepage": true,
-            "template": "single-page"
-        }
-    },
-    """
-  'Single':
-    'prefix': 'CraftSingle'
-    'body': """
-      {
-        "name": "",
-        "handle": "",
-        "type": "single",
-        "enableVersioning": true,
-        "typesettings": {
-            "homepage": true,
-            "urlFormat": "",
-            "template": ""
-        }
-    },
-    """
-  'Channel':
-    'prefix': 'CraftChannel'
-    'body': """
-      {
-        "name": "",
-        "handle": "",
-        "type": "channel",
-        "enableVersioning": true,
-        "typesettings": {
-            "hasUrls": true,
-            "urlFormat": "channel-page/{slug}", // only needed if "hasUrls"
-            "template": "channel-page/_entry" // only needed if "hasUrls"
-        }
-    },
-    """
-  'Structure':
-    'prefix': 'CraftStructure'
-    'body': """
-      {
-        "name": "",
-        "handle": "",
-        "type": "structure",
-        "enableVersioning": true,
-        "typesettings": {
-            "hasUrls": true,
-            "urlFormat": "structure-page/{slug}", // only needed if "hasUrls"
-            "nestedUrlFormat": "{parent.uri}/{slug}",
-            "template": "structure-page/_entry", // only needed if "hasUrls"
-            "maxLevels": #
-        }
-    },
-    """
-  'Entry Type - Single':
-    'prefix': 'CraftEntrySingle'
-    'body': """
-      {
-        "sectionName": "",
-        "hasTitleField": true,
-        "titleFormat": "{section.name|raw}", // If hasTitleField is false
-        "name": "",
-        "handle": "",
-        "titleLabel": "Title",
-        "fieldLayout": {
-            "Tab Name": [
-                "First Field"
-            ],
+		'''
+	Tags:
+		prefix: "CraftTags"
+		body: '''
+		  {
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "Tags",
+		    "typesettings": {
+		      "selectionLabel": "Add a tag"
+		    }
+		  },
+		'''
+	Users:
+		prefix: "CraftUsers"
+		body: '''
+		  {
+		    "group": "",
+		    "name": "",
+		    "handle": "",
+		    "instructions": "",
+		    "type": "Users",
+		    "typesettings": {
+		      "sources": [
+		        "admins"
+		      ],
+		      "selectionLabel": "Add a user"
+		    }
+		  },
+		'''
+	FieldNotes:
+		prefix: "CraftFieldNotes"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "FieldNotes_Note",
+		    "typesettings": {
+		      "noteContent": "This is where your note goes."
+		    }
+		  },
+		'''
+	"Single - Homepage":
+		prefix: "CraftHomePage"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "single",
+		    "enableVersioning": true,
+		    "typesettings": {
+		      "homepage": true,
+		      "template": "single-page"
+		    }
+		  },
+		'''
+	Single:
+		prefix: "CraftSingle"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "single",
+		    "enableVersioning": true,
+		    "typesettings": {
+		      "homepage": true,
+		      "urlFormat": "",
+		      "template": ""
+		    }
+		  },
+		'''
+	Channel:
+		prefix: "CraftChannel"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "channel",
+		    "enableVersioning": true,
+		    "typesettings": {
+		      "hasUrls": true,
+		      "urlFormat": "channel-page/{slug}",
+		      "template": "channel-page/_entry"
+		    }
+		  },
+		'''
+	Structure:
+		prefix: "CraftStructure"
+		body: '''
+		  {
+		    "name": "",
+		    "handle": "",
+		    "type": "structure",
+		    "enableVersioning": true,
+		    "typesettings": {
+		      "hasUrls": true,
+		      "urlFormat": "structure-page/{slug}",
+		      "nestedUrlFormat": "{parent.uri}/{slug}",
+		      "template": "structure-page/_entry",
+		      "maxLevels": 1
+		    }
+		  },
+		'''
+	"Entry Type - Single":
+		prefix: "CraftEntrySingle"
+		body: '''
+			{
+		    "sectionName": "",
+		    "hasTitleField": true,
+		    "titleFormat": "{section.name|raw}",
+		    "name": "",
+		    "handle": "",
+		    "titleLabel": "Title",
+		    "fieldLayout": {
+		      "Tab Name": [
+		        "First Field"
+		      ]
+		    }
+		  },
+		'''
+	"Entry Type - Channel or Structure":
+		prefix: "CraftEntryChannel"
+		body: '''
+			{
+		    "sectionName": "",
+		    "hasTitleField": true,
+		    "titleFormat": "{section.name|raw}",
+		    "name": "",
+		    "handle": "",
+		    "titleLabel": "Title",
+		    "fieldLayout": {
+		      "Tab Name": [
+		        "First Field"
+		      ]
+		    }
+		  },
+		'''
+	"Initial JSON file":
+		prefix: "CraftJsonInit"
+		body: '''
+			{
+			  "groups":[
 
-        }
-    }
-    """
-  'Entry Type - Channel or Structure':
-    'prefix': 'CraftEntryChannel'
-    'body': """
-      {
-        "sectionName": "",
-        "hasTitleField": true,
-        "titleFormat": "{section.name|raw}", // If hasTitleField is false
-        "name": "",
-        "handle": "",
-        "titleLabel": "Title",
-        "fieldLayout": {
-            "Tab Name": [
-                "First Field"
-            ],
+			  ],
+			  "fields": [
 
-        },
-    }
-    """
-  'Initial JSON file':
-    'prefix': 'CraftJsonInit'
-    'body': """
-      {
-        "groups":[
+			  ],
+			  "sections": [
 
-        ],
-        "fields": [
+			  ],
+			  "entryTypes": [
 
-        ],
-        "sections": [
+			  ],
+			  "sources": [
 
-        ],
-        "entryTypes": [
-
-        ],
-      }
-    """
+			  ]
+			}
+		'''
+	"Asset Source - Local":
+		prefix: "CraftSourceLocal"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "Local",
+		    "settings": {
+		      "path": "",
+		      "url": ""
+		    },
+		    "fieldLayout": {
+		      "Tab Name": [
+		        "First Field"
+		      ]
+		    }
+		  },
+		'''
+	"Asset Source - S3":
+		prefix: "CraftSourceS3"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "S3",
+		    "settings": {
+		      "keyId": "",
+		      "secret": "",
+		      "bucket": "",
+		      "subfolder": "",
+		      "urlPrefix": "",
+		      "expiresAmount": "",
+		      "expiresPeriod": ""
+		    },
+		    "fieldLayout": {
+		      "Tab Name": [
+		        "First Field"
+		      ]
+		    }
+		  },
+		'''
+	"Asset Source - GoogleCloud":
+		prefix: "CraftSourceGoogleCloud"
+		body: '''
+			{
+		    "name": "",
+		    "handle": "",
+		    "type": "GoogleCloud",
+		    "settings": {
+		      "keyId": "",
+		      "secret": "",
+		      "bucket": "",
+		      "subfolder": "",
+		      "urlPrefix": "",
+		      "expiresAmount": "",
+		      "expiresPeriod": ""
+		    },
+		    "fieldLayout": {
+		      "Tab Name": [
+		        "First Field"
+		      ]
+		    }
+		  },
+		'''
+	"Asset Source - Rackspace":
+		prefix: "CraftSourceRackspace"
+		body: '''
+			{
+		    "name": "Media",
+		    "handle": "media",
+		    "type": "Rackspace",
+		    "settings": {
+		      "username": "",
+		      "apiKey": "",
+		      "region": "",
+		      "container": "",
+		      "subfolder": "",
+		      "urlPrefix": ""
+		    },
+		    "fieldLayout": {
+		      "Tab Name": [
+		        "First Field"
+		      ]
+		    }
+		  },
+		'''

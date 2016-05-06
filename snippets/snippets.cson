@@ -373,3 +373,64 @@
         }
     },
     """
+  'Single - Homepage':
+    'prefix': 'CraftHomePage'
+    'body': """
+      {
+        "name": "",
+        "handle": "",
+        "type": "single",
+        "enableVersioning": true,
+        "typesettings": {
+            "homepage": true,
+            "template": "single-page"
+        }
+    },
+    """
+  'Single':
+    'prefix': 'CraftSingle'
+    'body': """
+      {
+        "name": "",
+        "handle": "",
+        "type": "single",
+        "enableVersioning": true,
+        "typesettings": {
+            "homepage": true,
+            "urlFormat": "",
+            "template": ""
+        }
+    },
+    """
+  'Channel':
+    'prefix': 'CraftChannel'
+    'body': """
+      {
+        "name": "",
+        "handle": "",
+        "type": "channel",
+        "enableVersioning": true,
+        "typesettings": {
+            "hasUrls": true,
+            "urlFormat": "channel-page/{slug}", // only needed if "hasUrls"
+            "template": "channel-page/_entry" // only needed if "hasUrls"
+        }
+    },
+    """
+  'Structure':
+    'prefix': 'CraftStructure'
+    'body': """
+      {
+        "name": "",
+        "handle": "",
+        "type": "structure",
+        "enableVersioning": true,
+        "typesettings": {
+            "hasUrls": true,
+            "urlFormat": "structure-page/{slug}", // only needed if "hasUrls"
+            "nestedUrlFormat": "{parent.uri}/{slug}",
+            "template": "structure-page/_entry", // only needed if "hasUrls"
+            "maxLevels": #
+        }
+    },
+    """

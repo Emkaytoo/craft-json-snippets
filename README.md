@@ -1,9 +1,14 @@
-# Craft .json snippets
+# Craft .json snippets Atom package
 
-Snippets to help you quickly generate `.json` models for [CraftCMS](http://craftcms.com). They work really well with the [CMS-Generator plugin](http://github.com/Pennebaker/craftcms-generator).
+Snippets for [Atom](https://atom.io/) that help you quickly generate `.json` models for [CraftCMS](http://craftcms.com). They work really well with the [CMS-Generator plugin](http://github.com/Pennebaker/craftcms-generator).
 
-## Use:
-Install the package and use the snippets. By default, use `tab` to expand.
+## Install:
+You can install this package through the Atom settings menu, or via the command line:
+
+    apm install craft-json-snippets
+
+## Usage:
+Install the package and type the name of a snippet. By default, use `tab` to expand.
 
 ## Snippets:
 

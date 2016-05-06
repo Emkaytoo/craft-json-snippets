@@ -9,104 +9,243 @@
   'Assets':
     'prefix': 'CraftAssets'
     'body': """
-    {
-      "group": "",
-      "name": "",
-      "handle": "",
-      "instructions": "",
-      "type": "Assets",
-      "typesettings": {
-        "useSingleFolder": ,
-        "defaultUploadLocationSubpath": "",
-        "restrictFiles": ,
-        "allowedKinds": [
-          "Access",
-          "Audio",
-          "Compressed",
-          "Excel",
-          "Flash",
-          "HTML",
-          "Illustrator",
-          "Image",
-          "Javascript",
-          "JSON",
-          "PDF",
-          "Photoshop",
-          "PHP",
-          "PowerPoint",
-          "Text",
-          "Video",
-          "Word",
-          "XML"
-        ],
-        "limit": 3,
-        "viewMode": ""
-        "selectionLabel": ""
-      }
-    },
-    """
+            {
+              "group": "",
+              "name": "",
+              "handle": "",
+              "instructions": "",
+              "type": "Assets",
+              "typesettings": {
+                "useSingleFolder": ,
+                "defaultUploadLocationSubpath": "",
+                "restrictFiles": ,
+                "allowedKinds": [
+                  "Access",
+                  "Audio",
+                  "Compressed",
+                  "Excel",
+                  "Flash",
+                  "HTML",
+                  "Illustrator",
+                  "Image",
+                  "Javascript",
+                  "JSON",
+                  "PDF",
+                  "Photoshop",
+                  "PHP",
+                  "PowerPoint",
+                  "Text",
+                  "Video",
+                  "Word",
+                  "XML"
+                ],
+                "limit": 3,
+                "viewMode": ""
+                "selectionLabel": ""
+              }
+            },
+            """
   'Categories':
     'prefix': 'CraftCategories'
     'body': """
-    {
-      "group": "",
-      "name": "",
-      "handle": "",
-      "instructions": "",
-      "type": "Categories",
-      "typesettings": {
-        "useSingleFolder": ,
-        "limit": ,
-        "selectionLabel": ""
-      }
-    },
-    """
+            {
+              "group": "",
+              "name": "",
+              "handle": "",
+              "instructions": "",
+              "type": "Categories",
+              "typesettings": {
+                "useSingleFolder": ,
+                "limit": ,
+                "selectionLabel": ""
+              }
+            },
+            """
   'Checkboxes':
     'prefix': 'CraftCheckboxes'
     'body': """
-    {
-      "group": "",
-      "name": "",
-      "handle": "",
-      "instructions": "",
-      "type": "",
-      "typesettings": {
-        "options": [
-          {
-            "label": "",
-            "value": "",
-            "default":
-          }
-        ]
-      }
-    },
-    """
+            {
+              "group": "",
+              "name": "",
+              "handle": "",
+              "instructions": "",
+              "type": "Checkboxes",
+              "typesettings": {
+                "options": [
+                  {
+                    "label": "",
+                    "value": "",
+                    "default":
+                  }
+                ]
+              }
+            },
+            """
+    'Color':
+      'prefix': 'CraftColor'
+      'body': """
+                {
+                  "group": "",
+                  "name": "",
+                  "handle": "",
+                  "instructions": "",
+                  "type": "Color"
+              }
+                """
+      'Date':
+        'prefix': 'CraftDate'
+        'body': """
+                    {
+                    "group": "",
+                    "name": "",
+                    "handle": "",
+                    "instructions": "",
+                    "type": "Date",
+                    "typesettings": {
+                        "dateTime": "showDate", // or "showTime" or "showBoth"
+                        "minuteIncrement": 15 // or 30 or 60
+                    }
+                },
+                    """
+  'Dropdown':
+    'prefix': 'CraftDropdown'
+    'body': """
+            {
+              "group": "",
+              "name": "",
+              "handle": "",
+              "instructions": "",
+              "type": "Dropdown",
+              "typesettings": {
+                "options": [
+                  {
+                    "label": "",
+                    "value": "",
+                    "default":
+                  }
+                ]
+              }
+            },
+            """
+  'Entries':
+    'prefix': 'CraftEntries'
+    'body': """
+            {
+                "group": "",
+                "name": "",
+                "handle": "",
+                "instructions": "",
+                "type": "Entries",
+                "typesettings": {
+                    "limit": ,
+                    "selectionLabel": ""
+                }
+            },
+            """
+  'Lightswitch':
+    'prefix': 'CraftLightswitch'
+    'body': """
+              {
+                "group": "Default",
+                "name": "",
+                "handle": "",
+                "instructions": "",
+                "type": "Lightswitch",
+                "typesettings": {
+                    "default": true
+                }
+            },
+              """
+  'Matrix':
+    'prefix': 'CraftMatrix'
+    'body': """
+            {
+                "group": "",
+                "name": "",
+                "handle": "",
+                "instructions": "",
+                "type": "Matrix",
+                "typesettings": {
+                    "maxBlocks": 9,
+                    "blockTypes": {
+                    }
+                }
+            },
+            """
+  'Matrix - New Block':
+    'prefix': 'CraftMatrixBlock'
+    'body': """
+              "new#": {
+                "name": "",
+                "handle": "",
+                "fields": {
 
+                }
+            },
+            """
+  'Matrix - New Field':
+      'prefix': 'CraftMatrixField'
+      'body': """
+               "new#": {
+                          "name": "",
+                          "handle": "", // Unlike above this is is not optional
+                          "instructions": "",
+                          "required": ,
+                          "type": "",
+                          "typesettings": {
 
-
-
-
-
-
-
-
-
-
-
-
+                          }
+                        },
+              """
+  'Multiselect':
+        'prefix': 'CraftMultiselect'
+        'body': """
+                {
+                  "group": "",
+                  "name": "",
+                  "handle": "",
+                  "instructions": "",
+                  "type": "Multiselect",
+                  "typesettings": {
+                    "options": [
+                      {
+                        "label": "",
+                        "value": "",
+                        "default":
+                      }
+                    ]
+                  }
+                },
+                """
+  'Number':
+      'prefix': 'CraftNumber'
+      'body': """
+                    {
+                    "group": "",
+                    "name": "",
+                    "handle": "",
+                    "instructions": "",
+                    "type": "Number",
+                    "typesettings": {
+                        "min": 0,
+                        "max": 100,
+                        "decimals": 2
+                    }
+                },
+                    """
   'Plain Text Field':
     'prefix': 'plaintext'
     'body': """
-      {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
-        "type": "PlainText",
-        "typesettings": {
-            "placeholder": "",
-            "maxLength": 30,
-            "multiline": false
-          }
-      }
-      """
+            {
+              "group": "",
+              "name": "",
+              "handle": "",
+              "instructions": "",
+              "type": "PlainText",
+              "typesettings": {
+                  "placeholder": "",
+                  "maxLength": 30,
+                  "multiline": false
+                }
+            }
+            """

@@ -40,7 +40,7 @@
                   "XML"
                 ],
                 "limit": 3,
-                "viewMode": ""
+                "viewMode": "",
                 "selectionLabel": ""
               }
             },
@@ -247,5 +247,129 @@
                   "maxLength": 30,
                   "multiline": false
                 }
-            }
+            },
             """
+  'Position Select':
+    'prefix': 'CraftPositionSelect'
+    'body': """
+      {
+          "group": "",
+          "name": "",
+          "handle": "",
+          "instructions": "",
+          "type": "PositionSelect",
+          "typesettings": {
+              "left": true,
+              "center": true,
+              "right": true,
+              "full": true,
+              "drop-left": false,
+              "drop-right": false
+          }
+      },
+    """
+  'RadioButtons':
+    'prefix': 'CraftRadioButton'
+    'body': """
+      {
+        "group": "",
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Multiselect",
+        "typesettings": {
+          "options": [
+            {
+              "label": "",
+              "value": "",
+              "default":
+            }
+          ]
+        }
+      },
+    """
+  'Rich Text':
+    'prefix': 'CraftRichText'
+    'body': """
+      {
+        "group": "",
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "RichText",
+        "typesettings": {
+            "configFile": "",
+            "cleanupHtml": ,
+            "purifyHtml": ,
+            "columnType": "text" // or "mediumtext"
+        }
+    },
+    """
+  'Table':
+    'prefix': 'CraftTable'
+    'body': """
+      {
+        "group": "",
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Table",
+        "typesettings": {
+            "columns": {
+
+                }
+            },
+            "defaults": {
+
+            }
+        }
+    },
+    """
+  'Table - New Column':
+    'prefix': 'CraftTableColumn'
+    'body': """
+      "col#": {
+          "heading": "",
+          "handle": "",
+          "width": "",
+          "type": "singleline" // or "multiline" or "number" or "checkbox"
+      },
+    """
+  'Table - New Default Row':
+    'prefix': 'CraftTableRow'
+    'body': """
+      "row#": {
+          "col1": "",
+      },
+    """
+  'Tags':
+    'prefix': 'CraftTags'
+    'body': """
+      {
+        "group": "",
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Tags",
+        "typesettings": {
+            "selectionLabel": "Add a tag"
+        }
+    },
+    """
+  'Users':
+    'prefix': 'CraftUsers'
+    'body': """
+      {
+        "group": "",
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Users",
+        "typesettings": {
+            "sources": [
+              "admins"
+              ],
+            "selectionLabel": "Add a user"
+        }
+    },
+    """

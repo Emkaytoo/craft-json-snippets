@@ -18,7 +18,7 @@
     "models"
   ],
   "author": "Ian DeRanieri",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Emkaytoo/craft-json-snippets/issues"
   },

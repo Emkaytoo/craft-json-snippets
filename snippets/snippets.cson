@@ -434,3 +434,57 @@
         }
     },
     """
+  'Entry Type - Single':
+    'prefix': 'CraftEntrySingle'
+    'body': """
+      {
+        "sectionName": "",
+        "hasTitleField": true,
+        "titleFormat": "{section.name|raw}", // If hasTitleField is false
+        "name": "",
+        "handle": "",
+        "titleLabel": "Title",
+        "fieldLayout": {
+            "Tab Name": [
+                "First Field"
+            ],
+
+        }
+    }
+    """
+  'Entry Type - Channel or Structure':
+    'prefix': 'CraftEntryChannel'
+    'body': """
+      {
+        "sectionName": "",
+        "hasTitleField": true,
+        "titleFormat": "{section.name|raw}", // If hasTitleField is false
+        "name": "",
+        "handle": "",
+        "titleLabel": "Title",
+        "fieldLayout": {
+            "Tab Name": [
+                "First Field"
+            ],
+
+        },
+    }
+    """
+  'Initial JSON file':
+    'prefix': 'CraftJsonInit'
+    'body': """
+      {
+        "groups":[
+
+        ],
+        "fields": [
+
+        ],
+        "sections": [
+
+        ],
+        "entryTypes": [
+
+        ],
+      }
+    """

@@ -184,15 +184,9 @@
   "Matrix - New Field":
     prefix: "CraftMatrixField"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
-        "required": "",
-        "type": "",
-        "typesettings": {
-        }
-      },
+      "new#":
+
+      ,
     '''
   Multiselect:
     prefix: "CraftMultiselect"

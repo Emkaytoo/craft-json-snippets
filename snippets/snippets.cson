@@ -360,7 +360,7 @@
   MatrixPlainText:
     prefix: "CraftMatrixPlainText"
     body: '''
-  "new#":
+  "new#": {
       "name": "",
       "handle": "",
       "instructions": "",

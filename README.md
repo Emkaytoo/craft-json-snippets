@@ -27,7 +27,24 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
 * `CraftLightswitch` - Creates a blank **Lightswitch** field.  
 * `CraftMatrix` - Creates an *incomplete* blank **Matrix** field.  
   * `CraftMatrixBlock` - Creates a new blocktype for use in the "blockTypes" array in a Matrix.  
-  * `CraftMatrixField` - Creates a new field for use in the "fields" array of a Matrix blocktype.  
+  * `CraftMatrixAssets` - Creates a new **Assets** field within a Matrix.  
+  * `CraftMatrixCategories` - Creates a new **Categories** field within a Matrix.  
+  * `CraftMatrixCheckboxes` - Creates a new **Checkboxes** field within a Matrix.  
+  * `CraftMatrixColor` - Creates a new **Color** field within a Matrix.  
+  * `CraftMatrixDate` - Creates a new **Date** field within a Matrix.  
+  * `CraftMatrixDropdown` - Creates a new **Dropdown** field within a Matrix.  
+  * `CraftMatrixEntries` - Creates a new **Entries** field within a Matrix.  
+  * `CraftMatrixLightswitch` - Creates a new **Lightswitch** field within a Matrix.  
+  * `CraftMatrixMultiselect` - Creates a new **Multiselect** field within a Matrix.  
+  * `CraftMatrixNumber` - Creates a new **Number** field within a Matrix.  
+  * `CraftMatrixPlainText` - Creates a new **PlainText** field within a Matrix.  
+  * `CraftMatrixPositionSelect` - Creates a new **PositionSelect** field within a Matrix.  
+  * `CraftMatrixRadioButtons` - Creates a new **RadioButtons** field within a Matrix.  
+  * `CraftMatrixRichText` - Creates a new **RichText** field within a Matrix.  
+  * `CraftMatrixTable` - Creates a new **Table** field within a Matrix.  
+  * `CraftMatrixTags` - Creates a new **Tags** field within a Matrix.  
+  * `CraftMatrixUsers` - Creates a new **Users** field within a Matrix.  
+  * `CraftMatrixFieldNotes` - Creates a new **FieldNotes** field within a Matrix.  
 * `CraftMultiselect` - Creates a blank **Multiselect** field.  
 * `CraftNumber` - Creates a blank **Number** field.  
 * `CraftPlainText` - Creates a blank **PlainText** field.  

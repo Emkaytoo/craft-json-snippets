@@ -181,12 +181,306 @@
         }
       },
     '''
-  "Matrix - New Field":
-    prefix: "CraftMatrixField"
+  MatrixAssets:
+    prefix: "CraftMatrixAssets"
     body: '''
-      "new#":
-
-      ,
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Assets",
+        "typesettings": {
+          "useSingleFolder": false,
+          "defaultUploadLocationSubpath": "",
+          "restrictFiles": true,
+          "allowedKinds": [
+            "access",
+            "audio",
+            "compressed",
+            "excel",
+            "flash",
+            "html",
+            "illustrator",
+            "image",
+            "javascript",
+            "json",
+            "pdf",
+            "photoshop",
+            "php",
+            "powerpoint",
+            "text",
+            "video",
+            "word",
+            "xml"
+          ],
+          "limit": 3,
+          "viewMode": "",
+          "selectionLabel": ""
+        }
+      },
+    '''
+  MatrixCategories:
+    prefix: "CraftMatrixCategories"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Categories",
+        "typesettings": {
+          "useSingleFolder": false,
+          "limit": 3,
+          "selectionLabel": ""
+        }
+      },
+    '''
+  MatrixCheckboxes:
+    prefix: "CraftMatrixCheckboxes"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Checkboxes",
+        "typesettings": {
+          "options": [
+            {
+              "label": "",
+              "value": "",
+              "default": true
+            }
+          ]
+        }
+      },
+    '''
+  MatrixColor:
+    prefix: "CraftMatrixColor"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Color"
+      },
+    '''
+  MatrixDate:
+    prefix: "CraftMatrixDate"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Date",
+        "typesettings": {
+            "dateTime": "showDate",
+            "minuteIncrement": 15
+        }
+      },
+    '''
+  MatrixDropdown:
+    prefix: "CraftMatrixDropdown"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Dropdown",
+        "typesettings": {
+          "options": [
+            {
+              "label": "",
+              "value": "",
+              "default": true
+            }
+          ]
+        }
+      },
+    '''
+  MatrixEntries:
+    prefix: "CraftMatrixEntries"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Entries",
+        "typesettings": {
+            "limit": 3,
+            "selectionLabel": ""
+        }
+      },
+    '''
+  MatrixLightswitch:
+    prefix: "CraftMatrixLightswitch"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Lightswitch",
+        "typesettings": {
+            "default": true
+        }
+      },
+    '''
+  MatrixMultiselect:
+    prefix: "CraftMatrixMultiselect"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Multiselect",
+        "typesettings": {
+          "options": [
+            {
+              "label": "",
+              "value": "",
+              "default": true
+            }
+          ]
+        }
+      },
+    '''
+  MatrixNumber:
+    prefix: "CraftMatrixNumber"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Number",
+        "typesettings": {
+          "min": 0,
+          "max": 100,
+          "decimals": 2
+        }
+      },
+    '''
+  MatrixPlainText:
+    prefix: "CraftMatrixPlainText"
+    body: '''
+  "new#":
+      "name": "",
+      "handle": "",
+      "instructions": "",
+      "type": "PlainText",
+      "typesettings": {
+        "placeholder": "",
+        "maxLength": 30,
+        "multiline": false
+      }
+    },
+    '''
+  MatrixPositionSelect:
+    prefix: "CraftMatrixPositionSelect"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "PositionSelect",
+        "typesettings": {
+          "left": true,
+          "center": true,
+          "right": true,
+          "full": true,
+          "drop-left": false,
+          "drop-right": false
+        }
+      },
+    '''
+  MatrixRadioButtons:
+    prefix: "CraftMatrixRadioButtons"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "RadioButtons",
+        "typesettings": {
+          "options": [
+            {
+              "label": "",
+              "value": "",
+              "default": true
+            }
+          ]
+        }
+      },
+    '''
+  MatrixRichText:
+    prefix: "CraftMatrixRichText"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "RichText",
+        "typesettings": {
+          "configFile": "",
+          "cleanupHtml": true,
+          "purifyHtml": false,
+          "columnType": ""
+        }
+      },
+    '''
+  MatrixTable:
+    prefix: "CraftMatrixTable"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Table",
+        "typesettings": {
+          "columns": {
+          },
+          "defaults": {
+          }
+        }
+      },
+    '''
+  MatrixTags:
+    prefix: "CraftMatrixTags"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Tags",
+        "typesettings": {
+          "selectionLabel": "Add a tag"
+        }
+      },
+    '''
+  MatrixUsers:
+    prefix: "CraftMatrixUsers"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "instructions": "",
+        "type": "Users",
+        "typesettings": {
+          "sources": [
+            "admins"
+          ],
+          "selectionLabel": "Add a user"
+        }
+      },
+    '''
+  MatrixFieldNotes:
+    prefix: "CraftMatrixFieldNotes"
+    body: '''
+      "new#": {
+        "name": "",
+        "handle": "",
+        "type": "FieldNotes_Note",
+        "typesettings": {
+          "noteContent": "This is where your note goes."
+        }
+      },
     '''
   Multiselect:
     prefix: "CraftMultiselect"

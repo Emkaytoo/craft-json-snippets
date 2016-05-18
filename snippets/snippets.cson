@@ -851,8 +851,8 @@
     prefix: "CraftSourceRackspace"
     body: '''
       {
-        "name": "Media",
-        "handle": "media",
+        "name": "",
+        "handle": "",
         "type": "Rackspace",
         "settings": {
           "username": "",

@@ -677,6 +677,7 @@
         "enableVersioning": true,
         "typesettings": {
           "homepage": true,
+          "urlFormat": "",
           "template": "single-page"
         }
       },
@@ -690,7 +691,7 @@
         "type": "single",
         "enableVersioning": true,
         "typesettings": {
-          "homepage": true,
+          "homepage": false,
           "urlFormat": "",
           "template": ""
         }

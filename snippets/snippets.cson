@@ -9,16 +9,16 @@
     prefix: "CraftAssets"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Assets",
         "typesettings": {
           "useSingleFolder": false,
           "defaultUploadLocationSubpath": "",
           "restrictFiles": true,
-          "allowedKinds": [
+          "allowedKinds": [$5
             "access",
             "audio",
             "compressed",
@@ -38,9 +38,9 @@
             "word",
             "xml"
           ],
-          "limit": 3,
-          "viewMode": "",
-          "selectionLabel": ""
+          "limit":$6 3,
+          "viewMode": "$7",
+          "selectionLabel": "$8"
         }
       },
     '''
@@ -48,10 +48,10 @@
     prefix: "CraftCategories"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Categories",
         "typesettings": {
           "useSingleFolder": false,
@@ -64,15 +64,15 @@
     prefix: "CraftCheckboxes"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Checkboxes",
         "typesettings": {
           "options": [
             {
-              "label": "",
+              "label": "$5",
               "value": "",
               "default": true
             }
@@ -84,10 +84,10 @@
     prefix: "CraftColor"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Color"
       },
     '''
@@ -95,10 +95,10 @@
     prefix: "CraftDate"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Date",
         "typesettings": {
             "dateTime": "showDate",
@@ -110,15 +110,15 @@
     prefix: "CraftDropdown"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Dropdown",
         "typesettings": {
           "options": [
             {
-              "label": "",
+              "label": "$5",
               "value": "",
               "default": true
             }
@@ -130,10 +130,10 @@
     prefix: "CraftEntries"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Entries",
         "typesettings": {
             "limit": 3,
@@ -145,10 +145,10 @@
     prefix: "CraftLightswitch"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Lightswitch",
         "typesettings": {
             "default": true
@@ -159,14 +159,15 @@
     prefix: "CraftMatrix"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Matrix",
         "typesettings": {
           "maxBlocks": 9,
           "blockTypes": {
+            $5
           }
         }
       },
@@ -174,27 +175,28 @@
   "Matrix - New Block":
     prefix: "CraftMatrixBlock"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
         "fields": {
+          $4
         }
       },
     '''
   MatrixAssets:
     prefix: "CraftMatrixAssets"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Assets",
         "typesettings": {
           "useSingleFolder": false,
           "defaultUploadLocationSubpath": "",
           "restrictFiles": true,
           "allowedKinds": [
-            "access",
+            $5"access",
             "audio",
             "compressed",
             "excel",
@@ -213,19 +215,19 @@
             "word",
             "xml"
           ],
-          "limit": 3,
-          "viewMode": "",
-          "selectionLabel": ""
+          "limit":$6 3,
+          "viewMode": "$7",
+          "selectionLabel": "$8"
         }
       },
     '''
   MatrixCategories:
     prefix: "CraftMatrixCategories"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Categories",
         "typesettings": {
           "useSingleFolder": false,
@@ -237,10 +239,10 @@
   MatrixCheckboxes:
     prefix: "CraftMatrixCheckboxes"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Checkboxes",
         "typesettings": {
           "options": [
@@ -256,20 +258,20 @@
   MatrixColor:
     prefix: "CraftMatrixColor"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Color"
       },
     '''
   MatrixDate:
     prefix: "CraftMatrixDate"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Date",
         "typesettings": {
             "dateTime": "showDate",
@@ -280,10 +282,10 @@
   MatrixDropdown:
     prefix: "CraftMatrixDropdown"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Dropdown",
         "typesettings": {
           "options": [
@@ -299,10 +301,10 @@
   MatrixEntries:
     prefix: "CraftMatrixEntries"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Entries",
         "typesettings": {
             "limit": 3,
@@ -313,10 +315,10 @@
   MatrixLightswitch:
     prefix: "CraftMatrixLightswitch"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Lightswitch",
         "typesettings": {
             "default": true
@@ -326,10 +328,10 @@
   MatrixMultiselect:
     prefix: "CraftMatrixMultiselect"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Multiselect",
         "typesettings": {
           "options": [
@@ -345,10 +347,10 @@
   MatrixNumber:
     prefix: "CraftMatrixNumber"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Number",
         "typesettings": {
           "min": 0,
@@ -360,10 +362,10 @@
   MatrixPlainText:
     prefix: "CraftMatrixPlainText"
     body: '''
-  "new#": {
-      "name": "",
-      "handle": "",
-      "instructions": "",
+  "new$1": {
+      "name":$2 "",
+      "handle":$3 "",
+      "instructions":$4 "",
       "type": "PlainText",
       "typesettings": {
         "placeholder": "",
@@ -375,10 +377,10 @@
   MatrixPositionSelect:
     prefix: "CraftMatrixPositionSelect"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "PositionSelect",
         "typesettings": {
           "left": true,
@@ -393,10 +395,10 @@
   MatrixRadioButtons:
     prefix: "CraftMatrixRadioButtons"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "RadioButtons",
         "typesettings": {
           "options": [
@@ -412,13 +414,13 @@
   MatrixRichText:
     prefix: "CraftMatrixRichText"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "RichText",
         "typesettings": {
-          "configFile": "",
+          "configFile": "$5",
           "cleanupHtml": true,
           "purifyHtml": false,
           "columnType": ""
@@ -428,10 +430,10 @@
   MatrixTable:
     prefix: "CraftMatrixTable"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Table",
         "typesettings": {
           "columns": {
@@ -444,10 +446,10 @@
   MatrixTags:
     prefix: "CraftMatrixTags"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Tags",
         "typesettings": {
           "selectionLabel": "Add a tag"
@@ -457,28 +459,28 @@
   MatrixUsers:
     prefix: "CraftMatrixUsers"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
-        "instructions": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Users",
         "typesettings": {
           "sources": [
-            "admins"
+            "$5admins"
           ],
-          "selectionLabel": "Add a user"
+          "selectionLabel": "$6Add a user"
         }
       },
     '''
   MatrixFieldNotes:
     prefix: "CraftMatrixFieldNotes"
     body: '''
-      "new#": {
-        "name": "",
-        "handle": "",
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
         "type": "FieldNotes_Note",
         "typesettings": {
-          "noteContent": "This is where your note goes."
+          "noteContent": "$4This is where your note goes."
         }
       },
     '''
@@ -486,10 +488,10 @@
     prefix: "CraftMultiselect"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Multiselect",
         "typesettings": {
           "options": [
@@ -506,10 +508,10 @@
     prefix: "CraftNumber"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Number",
         "typesettings": {
           "min": 0,
@@ -522,10 +524,10 @@
     prefix: "CraftPlainText"
     body: '''
     {
-      "group": "",
-      "name": "",
-      "handle": "",
-      "instructions": "",
+      "group": "$1",
+      "name": "$2",
+      "handle": "$3",
+      "instructions": "$4",
       "type": "PlainText",
       "typesettings": {
         "placeholder": "",
@@ -538,10 +540,10 @@
     prefix: "CraftPositionSelect"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "PositionSelect",
         "typesettings": {
           "left": true,
@@ -557,10 +559,10 @@
     prefix: "CraftRadioButtons"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "RadioButtons",
         "typesettings": {
           "options": [
@@ -577,13 +579,13 @@
     prefix: "CraftRichText"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "RichText",
         "typesettings": {
-          "configFile": "",
+          "configFile": "$5",
           "cleanupHtml": true,
           "purifyHtml": false,
           "columnType": ""
@@ -594,10 +596,10 @@
     prefix: "CraftTable"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Table",
         "typesettings": {
           "columns": {
@@ -610,28 +612,28 @@
   "Table - New Column":
     prefix: "CraftTableColumn"
     body: '''
-      "col#": {
-        "heading": "",
-        "handle": "",
-        "width": "",
-        "type": ""
+      "col$1#": {
+        "heading": "$2",
+        "handle": "$3",
+        "width": "$4",
+        "type": "$5"
       },
     '''
   "Table - New Default Row":
     prefix: "CraftTableRow"
     body: '''
-      "row1": {
-        "col#": "",
+      "row$1#": {
+        "col$2#": "",
       },
     '''
   Tags:
     prefix: "CraftTags"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Tags",
         "typesettings": {
           "selectionLabel": "Add a tag"
@@ -642,16 +644,16 @@
     prefix: "CraftUsers"
     body: '''
       {
-        "group": "",
-        "name": "",
-        "handle": "",
-        "instructions": "",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
         "type": "Users",
         "typesettings": {
           "sources": [
-            "admins"
+            "$5admins"
           ],
-          "selectionLabel": "Add a user"
+          "selectionLabel": "$6Add a user"
         }
       },
     '''
@@ -659,11 +661,11 @@
     prefix: "CraftFieldNotes"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "FieldNotes_Note",
         "typesettings": {
-          "noteContent": "This is where your note goes."
+          "noteContent": "$3This is where your note goes."
         }
       },
     '''
@@ -671,13 +673,13 @@
     prefix: "CraftHomePage"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "single",
         "enableVersioning": true,
         "typesettings": {
           "homepage": true,
-          "urlFormat": "",
+          "urlFormat": "$3",
           "template": ""
         }
       },
@@ -686,14 +688,14 @@
     prefix: "CraftSingle"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "single",
         "enableVersioning": true,
         "typesettings": {
           "homepage": false,
-          "urlFormat": "",
-          "template": ""
+          "urlFormat": "$3",
+          "template": "$4"
         }
       },
     '''
@@ -701,14 +703,14 @@
     prefix: "CraftChannel"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "channel",
         "enableVersioning": true,
         "typesettings": {
-          "hasUrls": true,
-          "urlFormat": "channel-page/{slug}",
-          "template": "channel-page/_entry"
+          "hasUrls": $3true,
+          "urlFormat": "$4channel-page/{slug}",
+          "template": "$5channel-page/_entry"
         }
       },
     '''
@@ -716,15 +718,15 @@
     prefix: "CraftStructure"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "structure",
         "enableVersioning": true,
         "typesettings": {
-          "hasUrls": true,
-          "urlFormat": "structure-page/{slug}",
+          "hasUrls": $3true,
+          "urlFormat": "$4structure-page/{slug}",
           "nestedUrlFormat": "{parent.uri}/{slug}",
-          "template": "structure-page/_entry",
+          "template": "$5structure-page/_entry",
           "maxLevels": 1
         }
       },
@@ -733,15 +735,15 @@
     prefix: "CraftEntrySingle"
     body: '''
       {
-        "sectionName": "",
+        "sectionName": "$1",
         "hasTitleField": true,
         "titleFormat": "{section.name|raw}",
-        "name": "",
-        "handle": "",
-        "titleLabel": "Title",
+        "name": "$2",
+        "handle": "$3",
+        "titleLabel": "$4Title",
         "fieldLayout": {
-          "Tab Name": [
-            "First Field"
+          "$5Tab Name": [
+            "$6First Field"
           ]
         }
       },
@@ -750,15 +752,15 @@
     prefix: "CraftEntryChannel"
     body: '''
       {
-        "sectionName": "",
+        "sectionName": "$1",
         "hasTitleField": true,
         "titleFormat": "{section.name|raw}",
-        "name": "",
-        "handle": "",
-        "titleLabel": "Title",
+        "name": "$2",
+        "handle": "$3",
+        "titleLabel": "$4Title",
         "fieldLayout": {
-          "Tab Name": [
-            "First Field"
+          "$5Tab Name": [
+            "$6First Field"
           ]
         }
       },
@@ -768,19 +770,19 @@
     body: '''
       {
         "groups":[
-
+          $1
         ],
         "fields": [
-
+          $2
         ],
         "sections": [
-
+          $3
         ],
         "entryTypes": [
-
+          $4
         ],
         "sources": [
-
+          $5
         ]
       }
     '''
@@ -788,16 +790,16 @@
     prefix: "CraftSourceLocal"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "Local",
         "settings": {
-          "path": "",
-          "url": ""
+          "path": "$3",
+          "url": "$4"
         },
         "fieldLayout": {
-          "Tab Name": [
-            "First Field"
+          "$5Tab Name": [
+            "$6First Field"
           ]
         }
       },
@@ -806,21 +808,21 @@
     prefix: "CraftSourceS3"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "S3",
         "settings": {
-          "keyId": "",
-          "secret": "",
-          "bucket": "",
-          "subfolder": "",
-          "urlPrefix": "",
-          "expiresAmount": "",
-          "expiresPeriod": ""
+          "keyId": "$3",
+          "secret": "$4",
+          "bucket": "$5",
+          "subfolder": "$6",
+          "urlPrefix": "$7",
+          "expiresAmount": "$8",
+          "expiresPeriod": "$9"
         },
         "fieldLayout": {
-          "Tab Name": [
-            "First Field"
+          "$10Tab Name": [
+            "$11First Field"
           ]
         }
       },
@@ -829,21 +831,21 @@
     prefix: "CraftSourceGoogleCloud"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "GoogleCloud",
         "settings": {
-          "keyId": "",
-          "secret": "",
-          "bucket": "",
-          "subfolder": "",
-          "urlPrefix": "",
-          "expiresAmount": "",
-          "expiresPeriod": ""
+          "keyId": "$3",
+          "secret": "$4",
+          "bucket": "$5",
+          "subfolder": "$6",
+          "urlPrefix": "$7",
+          "expiresAmount": "$8",
+          "expiresPeriod": "$9"
         },
         "fieldLayout": {
-          "Tab Name": [
-            "First Field"
+          "$10Tab Name": [
+            "$11First Field"
           ]
         }
       },
@@ -852,8 +854,8 @@
     prefix: "CraftSourceRackspace"
     body: '''
       {
-        "name": "",
-        "handle": "",
+        "name": "$1",
+        "handle": "$2",
         "type": "Rackspace",
         "settings": {
           "username": "",

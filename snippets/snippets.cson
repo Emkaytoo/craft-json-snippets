@@ -511,6 +511,48 @@
         }
       },
     '''
+  Neo:
+    prefix: "CraftNeo"
+    body: '''
+      {
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
+        "type": "Neo",
+        "typesettings": {
+          "maxBlocks": 3$5,
+          "groups": {
+            "name$6": [
+              "Group A$7"
+            ],
+            "sortOrder$8": [
+              2 $9
+            ]
+          },
+          "blockTypes": {
+            $10
+          }
+        }
+      }
+    '''
+  "Neo BlockType":
+    prefix: "CraftNeoBlock"
+    body:'''
+      "new0$1": {
+        "sortOrder": "$2",
+        "name": "$3",
+        "handle": "$4",
+        "maxBlocks": "$5",
+        "childBlocks": ["$6"],
+        "topLevel": "1$7",
+        "fieldLayout": {
+          "Tab 1$8": [
+            "handleOne$9"
+          ]
+        }
+      },
+    '''
   Number:
     prefix: "CraftNumber"
     body: '''

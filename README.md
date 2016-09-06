@@ -46,6 +46,8 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
   * `CraftMatrixUsers` - Creates a new **Users** field within a Matrix.  
   * `CraftMatrixFieldNotes` - Creates a new **FieldNotes** field within a Matrix.  
 * `CraftMultiselect` - Creates a blank **Multiselect** field.  
+* `CraftNeo` - Creates an *incomplete* blank **Neo** field.  
+  * `CraftNeoBlock` - Creates a new blocktype for use in the "blockTypes" array in a Neo field.  
 * `CraftNumber` - Creates a blank **Number** field.  
 * `CraftPlainText` - Creates a blank **PlainText** field.  
 * `CraftPositionSelect` - Creates a blank **PositionSelect** field.  

@@ -1,6 +1,6 @@
 {
   "name": "craft-json-snippets",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Snippets for generating models in CraftCMS",
   "main": "snippets.cson",
   "scripts": {

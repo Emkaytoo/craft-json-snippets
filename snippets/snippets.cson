@@ -599,6 +599,7 @@
         }
       },
     '''
+
   Table:
     prefix: "CraftTable"
     body: '''
@@ -687,7 +688,7 @@
         "enableVersioning": true,
         "typesettings": {
           "homepage": true,
-          "urlFormat": "$3",
+          "urlFormat": "__home__$3",
           "template": ""
         }
       },
@@ -702,7 +703,7 @@
         "enableVersioning": true,
         "typesettings": {
           "homepage": false,
-          "urlFormat": "$3",
+          "urlFormat": "{slug}$3",
           "template": "$4"
         }
       },
@@ -716,9 +717,9 @@
         "type": "channel",
         "enableVersioning": true,
         "typesettings": {
-          "hasUrls": $3true,
-          "urlFormat": "$4channel-page/{slug}",
-          "template": "$5channel-page/_entry"
+          "hasUrls": true$3,
+          "urlFormat": "channel-page/{slug}$4",
+          "template": "channel-page/_entry$5"
         }
       },
     '''
@@ -731,11 +732,11 @@
         "type": "structure",
         "enableVersioning": true,
         "typesettings": {
-          "hasUrls": $3true,
-          "urlFormat": "$4structure-page/{slug}",
+          "hasUrls": true$3,
+          "urlFormat": "structure-page/{slug}$4",
           "nestedUrlFormat": "{parent.uri}/{slug}",
-          "template": "$5structure-page/_entry",
-          "maxLevels": 1
+          "template": "structure-page/_entry$5",
+          "maxLevels": 1 $6
         }
       },
     '''
@@ -743,15 +744,15 @@
     prefix: "CraftEntrySingle"
     body: '''
       {
-        "sectionName": "$1",
+        "sectionHandle": "$1",
         "hasTitleField": true,
+        "titleLabel": "$2Title",
         "titleFormat": "{section.name|raw}",
-        "name": "$2",
-        "handle": "$3",
-        "titleLabel": "$4Title",
+        "name": "$3",
+        "handle": "$4",
         "fieldLayout": {
           "$5Tab Name": [
-            "$6First Field"
+            "$6firstField"
           ]
         }
       },
@@ -760,15 +761,15 @@
     prefix: "CraftEntryChannel"
     body: '''
       {
-        "sectionName": "$1",
+        "sectionHandle": "$1",
         "hasTitleField": true,
+        "titleLabel": "$2Title",
         "titleFormat": "{section.name|raw}",
-        "name": "$2",
-        "handle": "$3",
-        "titleLabel": "$4Title",
+        "name": "$3",
+        "handle": "$4",
         "fieldLayout": {
           "$5Tab Name": [
-            "$6First Field"
+            "$6firstField"
           ]
         }
       },
@@ -803,13 +804,17 @@
         "type": "Local",
         "settings": {
           "path": "$3",
-          "url": "$4"
+          "url": "$4",
+          "publicURLs": true$5
         },
         "fieldLayout": {
-          "$5Tab Name": [
-            "$6First Field"
+          "Tab Name$6": [
+            "firstField$7"
           ]
-        }
+        },
+        "requiredFields": [
+          "firstField$8"
+        ]
       },
     '''
   "Asset Source - S3":
@@ -829,10 +834,13 @@
           "expiresPeriod": "$9"
         },
         "fieldLayout": {
-          "$10Tab Name": [
-            "$11First Field"
+          "Tab Name$10": [
+            "firstField$11"
           ]
-        }
+        },
+        "requiredFields": [
+          "firstField$12"
+        ]
       },
     '''
   "Asset Source - GoogleCloud":
@@ -852,10 +860,13 @@
           "expiresPeriod": "$9"
         },
         "fieldLayout": {
-          "$10Tab Name": [
-            "$11First Field"
+          "Tab Name$10": [
+            "firstField$11"
           ]
-        }
+        },
+        "requiredFields": [
+          "firstField$12"
+        ]
       },
     '''
   "Asset Source - Rackspace":
@@ -866,17 +877,20 @@
         "handle": "$2",
         "type": "Rackspace",
         "settings": {
-          "username": "",
-          "apiKey": "",
-          "region": "",
-          "container": "",
-          "subfolder": "",
-          "urlPrefix": ""
+          "username": "$3",
+          "apiKey": "$4",
+          "region": "$5",
+          "container": "$6",
+          "subfolder": "$7",
+          "urlPrefix": "$8"
         },
         "fieldLayout": {
           "Tab Name": [
-            "First Field"
+            "firstField$9"
           ]
-        }
+        },
+        "requiredFields": [
+          "firstField$10"
+        ]
       },
     '''

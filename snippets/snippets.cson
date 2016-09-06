@@ -16,9 +16,10 @@
         "type": "Assets",
         "typesettings": {
           "useSingleFolder": false,
+          "sources": ["$5"],
           "defaultUploadLocationSubpath": "",
           "restrictFiles": true,
-          "allowedKinds": [$5
+          "allowedKinds": [$6
             "access",
             "audio",
             "compressed",
@@ -38,9 +39,9 @@
             "word",
             "xml"
           ],
-          "limit":$6 3,
-          "viewMode": "$7",
-          "selectionLabel": "$8"
+          "limit":$7 3,
+          "viewMode": "$8",
+          "selectionLabel": "$9"
         }
       },
     '''
@@ -54,6 +55,7 @@
         "instructions": "$4",
         "type": "Categories",
         "typesettings": {
+          "source": ["$5"],
           "useSingleFolder": false,
           "limit": 3,
           "selectionLabel": ""
@@ -136,6 +138,7 @@
         "instructions": "$4",
         "type": "Entries",
         "typesettings": {
+            "sources": ["$5"],
             "limit": 3,
             "selectionLabel": ""
         }
@@ -193,6 +196,7 @@
         "type": "Assets",
         "typesettings": {
           "useSingleFolder": false,
+          "sources": ["$5"],
           "defaultUploadLocationSubpath": "",
           "restrictFiles": true,
           "allowedKinds": [
@@ -215,9 +219,9 @@
             "word",
             "xml"
           ],
-          "limit":$6 3,
-          "viewMode": "$7",
-          "selectionLabel": "$8"
+          "limit":$7 3,
+          "viewMode": "$8",
+          "selectionLabel": "$9"
         }
       },
     '''
@@ -230,6 +234,7 @@
         "instructions": "$4",
         "type": "Categories",
         "typesettings": {
+          "source": ["$5"],
           "useSingleFolder": false,
           "limit": 3,
           "selectionLabel": ""
@@ -307,6 +312,7 @@
         "instructions": "$4",
         "type": "Entries",
         "typesettings": {
+            "sources": ["$5"],
             "limit": 3,
             "selectionLabel": ""
         }
@@ -452,6 +458,7 @@
         "instructions": "$4",
         "type": "Tags",
         "typesettings": {
+          "source": ["$5"],
           "selectionLabel": "Add a tag"
         }
       },
@@ -636,6 +643,7 @@
         "instructions": "$4",
         "type": "Tags",
         "typesettings": {
+          "source": ["$5"],
           "selectionLabel": "Add a tag"
         }
       },

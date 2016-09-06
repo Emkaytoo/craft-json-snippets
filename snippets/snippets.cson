@@ -599,7 +599,27 @@
         }
       },
     '''
-
+  SuperTable:
+    prefix: "CraftSuperTable"
+    body: '''
+      {
+      "group": "$1",
+      "name": "$2",
+      "handle": "$3",
+      "instructions": "$4",
+      "type": "SuperTable",
+      "typesettings": {
+        "maxRows": 3 $5,
+        "blockTypes": {
+          "new": {
+            "fields": {
+              $6
+            }
+          }
+        }
+      }
+    }
+    '''
   Table:
     prefix: "CraftTable"
     body: '''

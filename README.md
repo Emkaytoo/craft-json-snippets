@@ -51,6 +51,7 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
 * `CraftPositionSelect` - Creates a blank **PositionSelect** field.  
 * `CraftRadioButtons` - Creates a blank **RadioButtons** field.  
 * `CraftRichText` - Creates a blank **RichText** field.  
+* `CraftSuperTable`- Creates a blank **SuperTable** field.  Use the `CraftMatrix` subfields to configure SuperTable.
 * `CraftTable`Creates an *incomplete* blank **Table** field.  
   * `CraftTableColumn` - Creates a blank **Columns** subfield for use in a table.  
   * `CraftTableRow` - Creates a blank **Row** subfield for use in a table.  

@@ -1,7 +1,7 @@
 # The snippets below help you quickly generate .json models for CraftCMS.
 #
 # They work really well with the CMS-Generator plugin, available at
-# http://github.com/Pennebaker/craftcms-generator
+# https://github.com/Pennebaker/craftcms-thearchitect
 
 
 ".source.json":

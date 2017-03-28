@@ -712,7 +712,7 @@
       },
     '''
   Users:
-    prefix: "CraftUsers"
+    prefix: "CraftFieldUsers"
     body: '''
       {
         "group": "$1",
@@ -954,5 +954,31 @@
         "requiredFields": [
           "firstField$10"
         ]
+      },
+    '''
+  Users:
+    prefix: "CraftUsers"
+    body: '''
+    {
+          "enabled": 1,
+          "archived": 0,
+          "locale": "en_us",
+          "localeEnabled": true,
+          "username": "$1",
+          "firstName": "$2",
+          "lastName": "$3",
+          "email": "$4",
+          "weekStartDay": 0,
+          "admin": 1,
+          "client": 0,
+          "locked": 0,
+          "suspended": 0,
+          "pending": 0,
+          "groups": [
+            "$5"
+          ],
+          "permissions": [
+            "$6"
+          ]
       },
     '''

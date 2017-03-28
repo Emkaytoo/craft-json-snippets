@@ -159,6 +159,37 @@
         }
       },
     '''
+  LinkIt:
+    prefix: "CraftLinkIt"
+    body: '''
+      {
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
+        "required": $5false,
+        "type": "FruitLinkIt",
+        "typesettings": {
+          "types": [
+            $6"email",
+            "tel",
+            "custom",
+            "entry",
+            "category",
+            "asset"
+          ],
+          "defaultText": "",
+          "allowCustomText": 1,
+          "allowTarget": 1,
+          "entrySources": [],
+          "entrySelectionLabel": "Select an entry",
+          "assetSources": "*",
+          "assetSelectionLabel": "Select an asset",
+          "categorySources": "*",
+          "categorySelectionLabel": "Select a category"
+        }
+      },
+    '''
   Matrix:
     prefix: "CraftMatrix"
     body: '''

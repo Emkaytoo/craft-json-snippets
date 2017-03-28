@@ -17,6 +17,7 @@
         "typesettings": {
           "useSingleFolder": false,
           "sources": ["$5"],
+          "defaultUploadLocationSource": "",
           "defaultUploadLocationSubpath": "",
           "restrictFiles": true,
           "allowedKinds": [$6
@@ -39,7 +40,7 @@
             "word",
             "xml"
           ],
-          "limit":$7 3,
+          "limit":$7,
           "viewMode": "$8",
           "selectionLabel": "$9"
         }

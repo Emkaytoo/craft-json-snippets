@@ -353,22 +353,22 @@
   MatrixNumber:
     prefix: "CraftMatrixNumber"
     body: '''
-      "new$1": {
-        "name": "$2",
-        "handle": "$3",
-        "instructions": "$4",
-        "type": "Number",
-        "typesettings": {
-          "min": 0,
-          "max": 100,
-          "decimals": 2
-        }
-      },
+    "new$1": {
+      "name": "$2",
+      "handle": "$3",
+      "instructions": "$4",
+      "type": "Number",
+      "typesettings": {
+        "min": 0,
+        "max": 100,
+        "decimals": 2
+      }
+    },
     '''
   MatrixPlainText:
     prefix: "CraftMatrixPlainText"
     body: '''
-  "new$1": {
+    "new$1": {
       "name":$2 "",
       "handle":$3 "",
       "instructions":$4 "",

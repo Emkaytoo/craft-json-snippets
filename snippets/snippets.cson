@@ -651,11 +651,11 @@
       "instructions": "$4",
       "type": "SuperTable",
       "typesettings": {
-        "maxRows": 3 $5,
-        "blockTypes": {
-          "new": {
-            "fields": {
-              $6
+      "maxRows": 3 $5,
+      "blockTypes": {
+        "new": {
+          "fields": {
+            $6
             }
           }
         }

@@ -673,6 +673,47 @@
         }
       },
     '''
+  SEOmatic:
+    prefix: "CraftSEOmatic"
+    body: '''
+      {
+        "group": "$1",
+        "name": "SEOmatic",
+        "handle": "seomatic",
+        "instructions": "$2",
+        "required": false,
+        "type": "Seomatic_Meta",
+        "typesettings": {
+          "assetSources": "*",
+          "seoMainEntityCategory": "CreativeWork",
+          "seoMainEntityOfPage": "WebPage",
+          "seoTitleSource": "field",
+          "seoTitleSourceField": "title",
+          "seoTitle": "",
+          "seoTitleSourceChangeable": 1,
+          "seoDescriptionSource": "custom",
+          "seoDescriptionSourceField": "title",
+          "seoDescription": "",
+          "seoDescriptionSourceChangeable": 1,
+          "seoKeywordsSource": "custom",
+          "seoKeywordsSourceField": "title",
+          "seoKeywords": "",
+          "seoKeywordsSourceChangeable": 1,
+          "seoImageIdSource": "custom",
+          "seoImageIdSourceField": "",
+          "seoImageIdSourceChangeable": 1,
+          "seoImageTransform": "",
+          "twitterCardType": "summary",
+          "twitterCardTypeChangeable": 1,
+          "seoTwitterImageTransform": "",
+          "openGraphType": "",
+          "openGraphTypeChangeable": 1,
+          "seoFacebookImageTransform": "",
+          "robots": "",
+          "robotsChangeable": 1
+        }
+      }
+    '''
   SuperTable:
     prefix: "CraftSuperTable"
     body: '''

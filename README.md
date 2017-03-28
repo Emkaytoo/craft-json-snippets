@@ -18,13 +18,14 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
 ### Fields
 
 * `CraftAssets` - Creates a blank **Assets** field.  
-* `CraftCategories` - Creates a blank **Categories** field.  
+* `CraftFieldCategories` - Creates a blank **Categories** field.  
 * `CraftCheckboxes` - Creates a blank **Checkboxes** field.  
 * `CraftColor`Creates a blank **Color** field.  
 * `CraftDate` - Creates a blank **Date** field.  
 * `CraftDropdown` - Creates a blank **Dropdown** field.  
 * `CraftEntries` - Creates a blank **Entries** field.  
-* `CraftLightswitch` - Creates a blank **Lightswitch** field.  
+* `CraftLightswitch` - Creates a blank **Lightswitch** field.
+* `CraftLinkIt` - Creates a blank **[FruitLinkIt](https://github.com/fruitstudios/LinkIt)** field.  
 * `CraftMatrix` - Creates an *incomplete* blank **Matrix** field.  
   * `CraftMatrixBlock` - Creates a new blocktype for use in the "blockTypes" array in a Matrix.  
   * `CraftMatrixAssets` - Creates a new **Assets** field within a Matrix.  
@@ -53,12 +54,13 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
 * `CraftPositionSelect` - Creates a blank **PositionSelect** field.  
 * `CraftRadioButtons` - Creates a blank **RadioButtons** field.  
 * `CraftRichText` - Creates a blank **RichText** field.  
+* `CraftSEOmatic`- Creates a blank **[SEOmatic](https://github.com/nystudio107/seomatic)** field.  
 * `CraftSuperTable`- Creates a blank **SuperTable** field.  Use the `CraftMatrix` subfields to configure SuperTable.
 * `CraftTable`Creates an *incomplete* blank **Table** field.  
   * `CraftTableColumn` - Creates a blank **Columns** subfield for use in a table.  
   * `CraftTableRow` - Creates a blank **Row** subfield for use in a table.  
 * `CraftTags`Creates a blank **Tags** field.  
-* `CraftUsers` - Creates a blank **Users** field.  
+* `CraftFieldUsers` - Creates a blank **Users** field.  
 * `CraftFieldNotes` - Creates a blank **FieldNotes** field.  
 
 ### Sections
@@ -76,3 +78,9 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
 * `CraftSourceS3` - Creates a blank **Amazon S3** asset source.  
 * `CraftSourceGoogleCloud` - Creates a blank **Google Cloud** asset source.  
 * `CraftSourceRackspace` - Creates a blank **Rackspace** asset source.  
+
+### Categories
+* `CraftCategories` - Creates a blank category model.  
+
+### Users
+* `CraftUsers` - Creates a blank **user** template.  

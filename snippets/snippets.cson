@@ -47,7 +47,7 @@
       },
     '''
   Categories:
-    prefix: "CraftCategories"
+    prefix: "CraftFieldCategories"
     body: '''
       {
         "group": "$1",
@@ -957,29 +957,51 @@
         ]
       },
     '''
+  Categories:
+    prefix: "CraftCategories"
+    body: '''
+    {
+      "name": "$1",
+      "handle": "$2",
+      "hasUrls": 1,
+      "template": "$3",
+      "maxLevels": $4,
+      "locales": {
+        "en_us": {
+          "urlFormat": "category-test/{slug}",
+          "nestedUrlFormat": "{parent.uri}/{slug}"
+        }
+      },
+      "fieldLayout": {
+        "Tab Name": [
+          "fieldHandle"
+        ]
+      }
+    },
+    '''
   Users:
     prefix: "CraftUsers"
     body: '''
     {
-          "enabled": 1,
-          "archived": 0,
-          "locale": "en_us",
-          "localeEnabled": true,
-          "username": "$1",
-          "firstName": "$2",
-          "lastName": "$3",
-          "email": "$4",
-          "weekStartDay": 0,
-          "admin": 1,
-          "client": 0,
-          "locked": 0,
-          "suspended": 0,
-          "pending": 0,
-          "groups": [
-            "$5"
-          ],
-          "permissions": [
-            "$6"
-          ]
-      },
+      "enabled": 1,
+      "archived": 0,
+      "locale": "en_us",
+      "localeEnabled": true,
+      "username": "$1",
+      "firstName": "$2",
+      "lastName": "$3",
+      "email": "$4",
+      "weekStartDay": 0,
+      "admin": 1,
+      "client": 0,
+      "locked": 0,
+      "suspended": 0,
+      "pending": 0,
+      "groups": [
+        "$5"
+      ],
+      "permissions": [
+        "$6"
+      ]
+    },
     '''

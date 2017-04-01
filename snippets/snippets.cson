@@ -8,6 +8,7 @@
   Assets:
     description: "Creates a new assets field."
     descriptionMoreURL: "https://craftcms.com/docs/assets-fields"
+    leftLabelHTML: '<span style="color:#43A047>Assets</span>'
     prefix: "CraftAssets"
     body: '''
       {
@@ -51,6 +52,7 @@
   Categories:
     description: "Creates a new categories field."
     descriptionMoreURL: "https://craftcms.com/docs/categories-fields"
+    leftLabelHTML: '<span style="color:#43A047>Categories</span>'
     prefix: "CraftFieldCategories"
     body: '''
       {
@@ -70,6 +72,7 @@
   Checkboxes:
     description: "Creates a new checkboxes field."
     descriptionMoreURL: "https://craftcms.com/docs/checkboxes-fields"
+    leftLabelHTML: '<span style="color:#43A047>Checkboxes</span>'
     prefix: "CraftCheckboxes"
     body: '''
       {
@@ -92,6 +95,7 @@
   Color:
     description: "Creates a new color field."
     descriptionMoreURL: "https://craftcms.com/docs/color-fields"
+    leftLabelHTML: '<span style="color:#43A047>Color</span>'
     prefix: "CraftColor"
     body: '''
       {
@@ -105,6 +109,7 @@
   Date:
     description: "Creates a new date field."
     descriptionMoreURL: "https://craftcms.com/docs/date-time-fields"
+    leftLabelHTML: '<span style="color:#43A047>Date</span>'
     prefix: "CraftDate"
     body: '''
       {
@@ -122,6 +127,7 @@
   Dropdown:
     description: "Creates a new dropdown field."
     descriptionMoreURL: "https://craftcms.com/docs/dropdown-fields"
+    leftLabelHTML: '<span style="color:#43A047>Dropdown</span>'
     prefix: "CraftDropdown"
     body: '''
       {
@@ -144,6 +150,7 @@
   Entries:
     description: "Creates a new entries field."
     descriptionMoreURL: "https://craftcms.com/docs/entries-fields"
+    leftLabelHTML: '<span style="color:#43A047>Entries</span>'
     prefix: "CraftEntries"
     body: '''
       {
@@ -162,6 +169,7 @@
   Lightswitch:
     description: "Creates a new light switch field."
     descriptionMoreURL: "https://craftcms.com/docs/lightswitch-fields"
+    leftLabelHTML: '<span style="color:#43A047>Lightswitch</span>'
     prefix: "CraftLightswitch"
     body: '''
       {
@@ -178,6 +186,7 @@
   LinkIt:
     description: "Creates a new LinkIt field."
     descriptionMoreURL: "https://github.com/fruitstudios/LinkIt"
+    leftLabelHTML: '<span style="color:#43A047>LinkIt</span>'
     prefix: "CraftLinkIt"
     body: '''
       {
@@ -211,6 +220,7 @@
   Matrix:
     description: "Creates an incomplete blank matrix field."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>Matrix</span>'
     prefix: "CraftMatrix"
     body: '''
       {
@@ -230,6 +240,7 @@
   "Matrix - New Block":
     description: "Creates a new blocktype for use in the blockTypes array in a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixBlock</span>'
     prefix: "CraftMatrixBlock"
     body: '''
       "new$1": {
@@ -243,6 +254,7 @@
   MatrixAssets:
     description: "Creates a new assets field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixAssets</span>'
     prefix: "CraftMatrixAssets"
     body: '''
       "new$1": {
@@ -284,6 +296,7 @@
   MatrixCategories:
     description: "Creates a new categories field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixCategories</span>'
     prefix: "CraftMatrixCategories"
     body: '''
       "new$1": {
@@ -302,6 +315,7 @@
   MatrixCheckboxes:
     description: "Creates a new checkboxes field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixCheckboxes</span>'
     prefix: "CraftMatrixCheckboxes"
     body: '''
       "new$1": {
@@ -323,6 +337,7 @@
   MatrixColor:
     description: "Creates a new color field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixColor</span>'
     prefix: "CraftMatrixColor"
     body: '''
       "new$1": {
@@ -335,6 +350,7 @@
   MatrixDate:
     description: "Creates a new date field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixDate</span>'
     prefix: "CraftMatrixDate"
     body: '''
       "new$1": {
@@ -351,6 +367,7 @@
   MatrixDropdown:
     description: "Creates a new dropdown field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixDropdown</span>'
     prefix: "CraftMatrixDropdown"
     body: '''
       "new$1": {
@@ -372,6 +389,7 @@
   MatrixEntries:
     description: "Creates a new entries field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixEntries</span>'
     prefix: "CraftMatrixEntries"
     body: '''
       "new$1": {
@@ -389,6 +407,7 @@
   MatrixLightswitch:
     description: "Creates a new light switch field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixLightswitch</span>'
     prefix: "CraftMatrixLightswitch"
     body: '''
       "new$1": {
@@ -404,6 +423,7 @@
   MatrixMultiselect:
     description: "Creates a new multi-select field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixMultiselect</span>'
     prefix: "CraftMatrixMultiselect"
     body: '''
       "new$1": {
@@ -425,6 +445,7 @@
   MatrixNumber:
     description: "Creates a new number field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixNumber</span>'
     prefix: "CraftMatrixNumber"
     body: '''
     "new$1": {
@@ -442,6 +463,7 @@
   MatrixPlainText:
     description: "Creates a new plaintext field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixPlainText</span>'
     prefix: "CraftMatrixPlainText"
     body: '''
     "new$1": {
@@ -459,6 +481,7 @@
   MatrixPositionSelect:
     description: "Creates a new position select field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixPositionSelect</span>'
     prefix: "CraftMatrixPositionSelect"
     body: '''
       "new$1": {
@@ -479,6 +502,7 @@
   MatrixRadioButtons:
     description: "Creates a new radio button field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixRadioButtons</span>'
     prefix: "CraftMatrixRadioButtons"
     body: '''
       "new$1": {
@@ -500,6 +524,7 @@
   MatrixRichText:
     description: "Creates a new rich text field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixRichText</span>'
     prefix: "CraftMatrixRichText"
     body: '''
       "new$1": {
@@ -518,6 +543,7 @@
   MatrixTable:
     description: "Creates a new table field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixTable</span>'
     prefix: "CraftMatrixTable"
     body: '''
       "new$1": {
@@ -536,6 +562,7 @@
   MatrixTags:
     description: "Creates a new tags field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixTags</span>'
     prefix: "CraftMatrixTags"
     body: '''
       "new$1": {
@@ -552,6 +579,7 @@
   MatrixUsers:
     description: "Creates a new users field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixUsers</span>'
     prefix: "CraftMatrixUsers"
     body: '''
       "new$1": {
@@ -570,6 +598,7 @@
   MatrixFieldNotes:
     description: "Creates a new fieldnotes field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
+    leftLabelHTML: '<span style="color:#43A047>MatrixFieldNotes</span>'
     prefix: "CraftMatrixFieldNotes"
     body: '''
       "new$1": {
@@ -584,6 +613,7 @@
   Multiselect:
     description: "Creates a new multi-select field."
     descriptionMoreURL: "https://craftcms.com/docs/multi-select-fields"
+    leftLabelHTML: '<span style="color:#43A047>Multiselect</span>'
     prefix: "CraftMultiselect"
     body: '''
       {
@@ -606,6 +636,7 @@
   Neo:
     description: "Creates a new neo field."
     descriptionMoreURL: "https://github.com/benjamminf/craft-neo"
+    leftLabelHTML: '<span style="color:#43A047>Neo</span>'
     prefix: "CraftNeo"
     body: '''
       {
@@ -633,6 +664,7 @@
   "Neo BlockType":
     description: "Creates a new blocktype for use in the blockTypes array in a Neo field."
     descriptionMoreURL: "https://github.com/benjamminf/craft-neo"
+    leftLabelHTML: '<span style="color:#43A047>Neo BlockType</span>'
     prefix: "CraftNeoBlock"
     body:'''
       "new0$1": {
@@ -652,6 +684,7 @@
   Number:
     description: "Creates a new number field."
     descriptionMoreURL: "https://craftcms.com/docs/number-fields"
+    leftLabelHTML: '<span style="color:#43A047>Number</span>'
     prefix: "CraftNumber"
     body: '''
       {
@@ -670,6 +703,7 @@
   PlainText:
     description: "Creates a new plain text field."
     descriptionMoreURL: "https://craftcms.com/docs/plain-text-fields"
+    leftLabelHTML: '<span style="color:#43A047>PlainText</span>'
     prefix: "CraftPlainText"
     body: '''
     {
@@ -688,6 +722,7 @@
   PositionSelect:
     description: "Creates a new position select field."
     descriptionMoreURL: "https://craftcms.com/docs/position-select-fields"
+    leftLabelHTML: '<span style="color:#43A047>PositionSelect</span>'
     prefix: "CraftPositionSelect"
     body: '''
       {
@@ -709,6 +744,7 @@
   RadioButtons:
     description: "Creates a new radio button field."
     descriptionMoreURL: "https://craftcms.com/docs/radio-buttons-fields"
+    leftLabelHTML: '<span style="color:#43A047>RadioButtons</span>'
     prefix: "CraftRadioButtons"
     body: '''
       {
@@ -731,6 +767,7 @@
   RichText:
     description: "Creates a new rich text field."
     descriptionMoreURL: "https://craftcms.com/docs/rich-text-fields"
+    leftLabelHTML: '<span style="color:#43A047>RichText</span>'
     prefix: "CraftRichText"
     body: '''
       {
@@ -750,6 +787,7 @@
   SEOmatic:
     description: "Creates a new seomatic field."
     descriptionMoreURL: "https://github.com/nystudio107/seomatic"
+    leftLabelHTML: '<span style="color:#43A047>SEOmatic</span>'
     prefix: "CraftSEOmatic"
     body: '''
       {
@@ -793,6 +831,7 @@
   SuperTable:
     description: "Creates a new supertable field."
     descriptionMoreURL: "https://github.com/engram-design/SuperTable"
+    leftLabelHTML: '<span style="color:#43A047>SuperTable</span>'
     prefix: "CraftSuperTable"
     body: '''
       {
@@ -816,6 +855,7 @@
   Table:
     description: "Creates an incomplete, blank table field."
     descriptionMoreURL: "https://craftcms.com/docs/table-fields"
+    leftLabelHTML: '<span style="color:#43A047>Table</span>'
     prefix: "CraftTable"
     body: '''
       {
@@ -835,6 +875,7 @@
   "Table - New Column":
     description: "Creates a blank columns subfield for use in a table."
     descriptionMoreURL: "https://craftcms.com/docs/table-fields"
+    leftLabelHTML: '<span style="color:#43A047>Table - New Column</span>'
     prefix: "CraftTableColumn"
     body: '''
       col$1#": {
@@ -847,6 +888,7 @@
   "Table - New Default Row":
     description: "Creates a blank row subfield for use in a table."
     descriptionMoreURL: "https://craftcms.com/docs/table-fields"
+    leftLabelHTML: '<span style="color:#43A047>Table - New Default Row</span>'
     prefix: "CraftTableRow"
     body: '''
       "row$1#": {
@@ -856,6 +898,7 @@
   Tags:
     description: "Creates a new tags field."
     descriptionMoreURL: "https://craftcms.com/docs/tags-fields"
+    leftLabelHTML: '<span style="color:#43A047>Tags</span>'
     prefix: "CraftTags"
     body: '''
       {
@@ -873,6 +916,7 @@
   Users:
     description: "Creates a new users field."
     descriptionMoreURL: "https://craftcms.com/docs/users-fields"
+    leftLabelHTML: '<span style="color:#43A047>Users</span>'
     prefix: "CraftFieldUsers"
     body: '''
       {
@@ -892,6 +936,7 @@
   FieldNotes:
     description: "Creates a new fieldnotes field."
     descriptionMoreURL: "https://bitbucket.org/michaelrog/craftfieldnotes"
+    leftLabelHTML: '<span style="color:#43A047>FieldNotes</span>'
     prefix: "CraftFieldNotes"
     body: '''
       {
@@ -907,6 +952,7 @@
   "Single - Homepage":
     description: "Creates a blank homepage section."
     descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
+    leftLabelHTML: '<span style="color:#43A047>Single - Homepage</span>'
     prefix: "CraftHomePage"
     body: '''
       {
@@ -924,6 +970,7 @@
   Single:
     description: "Creates a blank single section."
     descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
+    leftLabelHTML: '<span style="color:#43A047>Single</span>'
     prefix: "CraftSingle"
     body: '''
       {
@@ -941,6 +988,7 @@
   Channel:
     description: "Creates a blank channel section."
     descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
+    leftLabelHTML: '<span style="color:#43A047>Channel</span>'
     prefix: "CraftChannel"
     body: '''
       {
@@ -958,6 +1006,7 @@
   Structure:
     description: "Creates a blank structure section."
     descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
+    leftLabelHTML: '<span style="color:#43A047>Structure</span>'
     prefix: "CraftStructure"
     body: '''
       {
@@ -977,6 +1026,7 @@
   "Entry Type - Single":
     description: "Creates a blank Single entryType."
     descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries#entry-types"
+    leftLabelHTML: '<span style="color:#43A047>Entry Type - Single</span>'
     prefix: "CraftEntrySingle"
     body: '''
       {
@@ -996,6 +1046,7 @@
   "Entry Type - Channel or Structure":
     description: "Creates a blank entryType used for both Channels"
     descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries#entry-types"
+    leftLabelHTML: '<span style="color:#43A047>Entry Type - Channel or Structure</span>'
     prefix: "CraftEntryChannel"
     body: '''
       {
@@ -1015,6 +1066,7 @@
   "Initial JSON file":
     description: "Use this snippet in a blank document to begin creating a content"
     descriptionMoreURL: "https://github.com/Pennebaker/craftcms-thearchitect"
+    leftLabelHTML: '<span style="color:#43A047>Initial JSON file</span>'
     prefix: "CraftJsonInit"
     body: '''
       {
@@ -1038,6 +1090,7 @@
   "Asset Source - Local":
     description: "Creates a blank Local asset source."
     descriptionMoreURL: "https://craftcms.com/docs/assets"
+    leftLabelHTML: '<span style="color:#43A047>Asset Source - Local</span>'
     prefix: "CraftSourceLocal"
     body: '''
       {
@@ -1062,6 +1115,7 @@
   "Asset Source - S3":
     description: "Creates a blank Amazon S3 asset source."
     descriptionMoreURL: "https://craftcms.com/docs/assets"
+    leftLabelHTML: '<span style="color:#43A047>Asset Source - S3</span>'
     prefix: "CraftSourceS3"
     body: '''
       {
@@ -1090,6 +1144,7 @@
   "Asset Source - GoogleCloud":
     description: "Creates a blank Google Cloud asset source."
     descriptionMoreURL: "https://craftcms.com/docs/assets"
+    leftLabelHTML: '<span style="color:#43A047>Asset Source - GoogleCloud</span>'
     prefix: "CraftSourceGoogleCloud"
     body: '''
       {
@@ -1118,6 +1173,7 @@
   "Asset Source - Rackspace":
     description: "Creates a blank Rackspace asset source."
     descriptionMoreURL: "https://craftcms.com/docs/assets"
+    leftLabelHTML: '<span style="color:#43A047>Asset Source - Rackspace</span>'
     prefix: "CraftSourceRackspace"
     body: '''
       {
@@ -1145,6 +1201,7 @@
   Categories:
     description: "Creates a blank category model."
     descriptionMoreURL: "https://craftcms.com/docs/categories"
+    leftLabelHTML: '<span style="color:#43A047>Categories</span>'
     prefix: "CraftCategories"
     body: '''
     {
@@ -1169,6 +1226,7 @@
   Users:
     description: "Creates a blank user template."
     descriptionMoreURL: "https://craftcms.com/docs/users"
+    leftLabelHTML: '<span style="color:#43A047>Users</span>'
     prefix: "CraftUsers"
     body: '''
     {

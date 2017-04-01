@@ -1,11 +1,12 @@
 # The snippets below help you quickly generate .json models for CraftCMS.
 #
-# They work really well with the CMS-Generator plugin, available at
+# They work really well with the Architect plugin, available at
 # https://github.com/Pennebaker/craftcms-thearchitect
 
 
 ".source.json":
   Assets:
+    descriptionMoreURL: "https://craftcms.com/docs/assets-fields"
     prefix: "CraftAssets"
     body: '''
       {
@@ -47,6 +48,7 @@
       },
     '''
   Categories:
+    descriptionMoreURL: "https://craftcms.com/docs/categories-fields"
     prefix: "CraftFieldCategories"
     body: '''
       {
@@ -64,6 +66,7 @@
       },
     '''
   Checkboxes:
+    descriptionMoreURL: "https://craftcms.com/docs/checkboxes-fields"
     prefix: "CraftCheckboxes"
     body: '''
       {
@@ -84,6 +87,7 @@
       },
     '''
   Color:
+    descriptionMoreURL: "https://craftcms.com/docs/color-fields"
     prefix: "CraftColor"
     body: '''
       {
@@ -95,6 +99,7 @@
       },
     '''
   Date:
+    descriptionMoreURL: "https://craftcms.com/docs/date-time-fields"
     prefix: "CraftDate"
     body: '''
       {
@@ -110,6 +115,7 @@
       },
     '''
   Dropdown:
+    descriptionMoreURL: "https://craftcms.com/docs/dropdown-fields"
     prefix: "CraftDropdown"
     body: '''
       {
@@ -130,6 +136,7 @@
       },
     '''
   Entries:
+    descriptionMoreURL: "https://craftcms.com/docs/entries-fields"
     prefix: "CraftEntries"
     body: '''
       {
@@ -146,6 +153,7 @@
       },
     '''
   Lightswitch:
+    descriptionMoreURL: "https://craftcms.com/docs/lightswitch-fields"
     prefix: "CraftLightswitch"
     body: '''
       {
@@ -160,6 +168,7 @@
       },
     '''
   LinkIt:
+    descriptionMoreURL: "https://github.com/fruitstudios/LinkIt"
     prefix: "CraftLinkIt"
     body: '''
       {
@@ -191,6 +200,7 @@
       },
     '''
   Matrix:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrix"
     body: '''
       {
@@ -208,6 +218,7 @@
       },
     '''
   "Matrix - New Block":
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixBlock"
     body: '''
       "new$1": {
@@ -219,6 +230,7 @@
       },
     '''
   MatrixAssets:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixAssets"
     body: '''
       "new$1": {
@@ -258,6 +270,7 @@
       },
     '''
   MatrixCategories:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixCategories"
     body: '''
       "new$1": {
@@ -274,6 +287,7 @@
       },
     '''
   MatrixCheckboxes:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixCheckboxes"
     body: '''
       "new$1": {
@@ -293,6 +307,7 @@
       },
     '''
   MatrixColor:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixColor"
     body: '''
       "new$1": {
@@ -303,6 +318,7 @@
       },
     '''
   MatrixDate:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixDate"
     body: '''
       "new$1": {
@@ -317,6 +333,7 @@
       },
     '''
   MatrixDropdown:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixDropdown"
     body: '''
       "new$1": {
@@ -336,6 +353,7 @@
       },
     '''
   MatrixEntries:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixEntries"
     body: '''
       "new$1": {
@@ -351,6 +369,7 @@
       },
     '''
   MatrixLightswitch:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixLightswitch"
     body: '''
       "new$1": {
@@ -364,6 +383,7 @@
       },
     '''
   MatrixMultiselect:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixMultiselect"
     body: '''
       "new$1": {
@@ -383,6 +403,7 @@
       },
     '''
   MatrixNumber:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixNumber"
     body: '''
     "new$1": {
@@ -398,6 +419,7 @@
     },
     '''
   MatrixPlainText:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixPlainText"
     body: '''
     "new$1": {
@@ -413,6 +435,7 @@
     },
     '''
   MatrixPositionSelect:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixPositionSelect"
     body: '''
       "new$1": {
@@ -431,6 +454,7 @@
       },
     '''
   MatrixRadioButtons:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixRadioButtons"
     body: '''
       "new$1": {
@@ -450,6 +474,7 @@
       },
     '''
   MatrixRichText:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixRichText"
     body: '''
       "new$1": {
@@ -466,6 +491,7 @@
       },
     '''
   MatrixTable:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixTable"
     body: '''
       "new$1": {
@@ -482,6 +508,7 @@
       },
     '''
   MatrixTags:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixTags"
     body: '''
       "new$1": {
@@ -496,6 +523,7 @@
       },
     '''
   MatrixUsers:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixUsers"
     body: '''
       "new$1": {
@@ -512,6 +540,7 @@
       },
     '''
   MatrixFieldNotes:
+    descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"
     prefix: "CraftMatrixFieldNotes"
     body: '''
       "new$1": {
@@ -524,6 +553,7 @@
       },
     '''
   Multiselect:
+    descriptionMoreURL: "https://craftcms.com/docs/multi-select-fields"
     prefix: "CraftMultiselect"
     body: '''
       {
@@ -544,6 +574,7 @@
       },
     '''
   Neo:
+    descriptionMoreURL: "https://github.com/benjamminf/craft-neo"
     prefix: "CraftNeo"
     body: '''
       {
@@ -569,6 +600,7 @@
       }
     '''
   "Neo BlockType":
+    descriptionMoreURL: "https://github.com/benjamminf/craft-neo"
     prefix: "CraftNeoBlock"
     body:'''
       "new0$1": {
@@ -586,6 +618,7 @@
       },
     '''
   Number:
+    descriptionMoreURL: "https://craftcms.com/docs/number-fields"
     prefix: "CraftNumber"
     body: '''
       {
@@ -602,6 +635,7 @@
       },
     '''
   PlainText:
+    descriptionMoreURL: "https://craftcms.com/docs/plain-text-fields"
     prefix: "CraftPlainText"
     body: '''
     {
@@ -618,6 +652,7 @@
     },
     '''
   PositionSelect:
+    descriptionMoreURL: "https://craftcms.com/docs/position-select-fields"
     prefix: "CraftPositionSelect"
     body: '''
       {
@@ -637,6 +672,7 @@
       },
     '''
   RadioButtons:
+    descriptionMoreURL: "https://craftcms.com/docs/radio-buttons-fields"
     prefix: "CraftRadioButtons"
     body: '''
       {
@@ -657,6 +693,7 @@
       },
     '''
   RichText:
+    descriptionMoreURL: "https://craftcms.com/docs/rich-text-fields"
     prefix: "CraftRichText"
     body: '''
       {
@@ -674,6 +711,7 @@
       },
     '''
   SEOmatic:
+    descriptionMoreURL: "https://github.com/nystudio107/seomatic"
     prefix: "CraftSEOmatic"
     body: '''
       {
@@ -715,6 +753,7 @@
       }
     '''
   SuperTable:
+    descriptionMoreURL: "https://github.com/engram-design/SuperTable"
     prefix: "CraftSuperTable"
     body: '''
       {
@@ -736,6 +775,7 @@
     }
     '''
   Table:
+    descriptionMoreURL: "https://craftcms.com/docs/table-fields"
     prefix: "CraftTable"
     body: '''
       {
@@ -753,6 +793,7 @@
       },
     '''
   "Table - New Column":
+    descriptionMoreURL: "https://craftcms.com/docs/table-fields"
     prefix: "CraftTableColumn"
     body: '''
       "col$1#": {
@@ -763,6 +804,7 @@
       },
     '''
   "Table - New Default Row":
+    descriptionMoreURL: "https://craftcms.com/docs/table-fields"
     prefix: "CraftTableRow"
     body: '''
       "row$1#": {
@@ -770,6 +812,7 @@
       },
     '''
   Tags:
+    descriptionMoreURL: "https://craftcms.com/docs/tags-fields"
     prefix: "CraftTags"
     body: '''
       {
@@ -785,6 +828,7 @@
       },
     '''
   Users:
+    descriptionMoreURL: "https://craftcms.com/docs/users-fields"
     prefix: "CraftFieldUsers"
     body: '''
       {
@@ -802,6 +846,7 @@
       },
     '''
   FieldNotes:
+    descriptionMoreURL: "https://bitbucket.org/michaelrog/craftfieldnotes"
     prefix: "CraftFieldNotes"
     body: '''
       {
@@ -815,6 +860,7 @@
       },
     '''
   "Single - Homepage":
+    descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
     prefix: "CraftHomePage"
     body: '''
       {
@@ -830,6 +876,7 @@
       },
     '''
   Single:
+    descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
     prefix: "CraftSingle"
     body: '''
       {
@@ -845,6 +892,7 @@
       },
     '''
   Channel:
+    descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
     prefix: "CraftChannel"
     body: '''
       {
@@ -860,6 +908,7 @@
       },
     '''
   Structure:
+    descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries"
     prefix: "CraftStructure"
     body: '''
       {
@@ -877,6 +926,7 @@
       },
     '''
   "Entry Type - Single":
+    descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries#entry-types"
     prefix: "CraftEntrySingle"
     body: '''
       {
@@ -894,6 +944,7 @@
       },
     '''
   "Entry Type - Channel or Structure":
+    descriptionMoreURL: "https://craftcms.com/docs/sections-and-entries#entry-types"
     prefix: "CraftEntryChannel"
     body: '''
       {
@@ -911,6 +962,7 @@
       },
     '''
   "Initial JSON file":
+    descriptionMoreURL: ""
     prefix: "CraftJsonInit"
     body: '''
       {
@@ -932,6 +984,7 @@
       }
     '''
   "Asset Source - Local":
+    descriptionMoreURL: "https://craftcms.com/docs/assets"
     prefix: "CraftSourceLocal"
     body: '''
       {
@@ -954,6 +1007,7 @@
       },
     '''
   "Asset Source - S3":
+    descriptionMoreURL: "https://craftcms.com/docs/assets"
     prefix: "CraftSourceS3"
     body: '''
       {
@@ -980,6 +1034,7 @@
       },
     '''
   "Asset Source - GoogleCloud":
+    descriptionMoreURL: "https://craftcms.com/docs/assets"
     prefix: "CraftSourceGoogleCloud"
     body: '''
       {
@@ -1006,6 +1061,7 @@
       },
     '''
   "Asset Source - Rackspace":
+    descriptionMoreURL: "https://craftcms.com/docs/assets"
     prefix: "CraftSourceRackspace"
     body: '''
       {
@@ -1031,6 +1087,7 @@
       },
     '''
   Categories:
+    descriptionMoreURL: "https://craftcms.com/docs/categories"
     prefix: "CraftCategories"
     body: '''
     {
@@ -1053,6 +1110,7 @@
     },
     '''
   Users:
+    descriptionMoreURL: "https://craftcms.com/docs/users"
     prefix: "CraftUsers"
     body: '''
     {

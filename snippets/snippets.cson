@@ -1070,20 +1070,35 @@
     prefix: "CraftJsonInit"
     body: '''
       {
-        "groups":[
+        "groups": [
           $1
         ],
-        "fields": [
+        "sections": [
           $2
         ],
-        "sections": [
-          $3
+        "fields": [
+            $3
         ],
         "entryTypes": [
-          $4
+            $4
         ],
         "sources": [
-          $5
+            $5
+        ],
+        "globals": [
+            $6
+        ],
+        "categories": [
+          $7
+        ],
+        "users": [
+            $8
+        ],
+        "userGroups": [
+            $9
+        ],
+        "userGroupPermissions": [
+            $10
         ]
       }
     '''

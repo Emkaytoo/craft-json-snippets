@@ -805,11 +805,12 @@
     prefix: "CraftFieldNotes"
     body: '''
       {
-        "name": "$1",
-        "handle": "$2",
+        "group": "$1",
+        "name": "$2",
+        "handle": "$3",
         "type": "FieldNotes_Note",
         "typesettings": {
-          "noteContent": "$3This is where your note goes."
+          "noteContent": "$4"
         }
       },
     '''

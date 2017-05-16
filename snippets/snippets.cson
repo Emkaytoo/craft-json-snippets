@@ -49,7 +49,7 @@
         }
       },
     '''
-  Categories:
+  "Categories - Field":
     description: "Creates a new categories field."
     descriptionMoreURL: "https://craftcms.com/docs/categories-fields"
     leftLabel: "Fields"
@@ -913,7 +913,7 @@
         }
       },
     '''
-  Users:
+  "Users - Field":
     description: "Creates a new users field."
     descriptionMoreURL: "https://craftcms.com/docs/users-fields"
     leftLabel: "Fields"

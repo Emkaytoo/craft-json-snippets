@@ -467,12 +467,12 @@
     prefix: "CraftMatrixPlainText"
     body: '''
     "new$1": {
-      "name":$2 "",
-      "handle":$3 "",
-      "instructions":$4 "",
+      "name": "$2",
+      "handle": "$3",
+      "instructions": "$4",
       "type": "PlainText",
       "typesettings": {
-        "placeholder": "",
+        "placeholder": "$5",
         "maxLength": 30,
         "multiline": false
       }

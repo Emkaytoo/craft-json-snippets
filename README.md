@@ -63,6 +63,9 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
 * `CraftFieldUsers` - Creates a blank **Users** field.  
 * `CraftFieldNotes` - Creates a blank **FieldNotes** field.  
 
+### Globals
+* `CraftGlobals` - Creates a new **Global set**.
+
 ### Sections
 * `CraftHomePage` - Creates a blank **Homepage** section.  
 * `CraftSingle` - Creates a blank **Single** section.  

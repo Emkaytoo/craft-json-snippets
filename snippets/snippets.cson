@@ -420,6 +420,42 @@
         }
       },
     '''
+  MatrixLinkIt:
+    description: "Creates a new LinkIt field within a matrix."
+    descriptionMoreURL: "https://github.com/fruitstudios/LinkIt"
+    leftLabel: "Fields"
+    prefix: "CraftMatrixLinkIt"
+    body: '''
+      "new1": {
+        "name": "MatrixLinkit",
+        "handle": "matrixlinkit",
+        "fields": {
+          "new1": {
+            "name": "Linkit",
+            "handle": "linkit",
+            "instructions": "linkit",
+            "required": 0,
+            "type": "FruitLinkIt",
+            "typesettings": {
+              "types": [
+                "email",
+                "tel",
+                "custom",
+                "entry",
+                "asset"
+              ],
+              "defaultText": "",
+              "allowCustomText": 1,
+              "allowTarget": 1,
+              "entrySources": [],
+              "entrySelectionLabel": "Select an entry",
+              "assetSources": "*",
+              "assetSelectionLabel": "Select an asset"
+            }
+          }
+        }
+      },
+    '''
   MatrixMultiselect:
     description: "Creates a new multi-select field within a matrix."
     descriptionMoreURL: "https://craftcms.com/docs/matrix-fields"

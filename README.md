@@ -36,6 +36,7 @@ Use `CraftJsonInit` in a blank document to begin creating a content model.
   * `CraftMatrixDropdown` - Creates a new **Dropdown** field within a Matrix.  
   * `CraftMatrixEntries` - Creates a new **Entries** field within a Matrix.  
   * `CraftMatrixLightswitch` - Creates a new **Lightswitch** field within a Matrix.  
+  * `CraftMatrixLinkIt` - Creates a blank **[FruitLinkIt](https://github.com/fruitstudios/LinkIt)** field within a Matrix.   
   * `CraftMatrixMultiselect` - Creates a new **Multiselect** field within a Matrix.  
   * `CraftMatrixNumber` - Creates a new **Number** field within a Matrix.  
   * `CraftMatrixPlainText` - Creates a new **PlainText** field within a Matrix.  

@@ -997,7 +997,10 @@
         "typesettings": {
           "homepage": false,
           "urlFormat": "{slug}$3",
-          "template": "$4"
+          "template": "$4",
+          "locales": {
+            "en_us": 1 $5
+          }
         }
       },
     '''
@@ -1015,7 +1018,10 @@
         "typesettings": {
           "hasUrls": true$3,
           "urlFormat": "channel-page/{slug}$4",
-          "template": "channel-page/_entry$5"
+          "template": "channel-page/_entry$5",
+          "locales": {
+            "en_us": 1 $6
+          }
         }
       },
     '''
@@ -1035,7 +1041,10 @@
           "urlFormat": "structure-page/{slug}$4",
           "nestedUrlFormat": "{parent.uri}/{slug}",
           "template": "structure-page/_entry$5",
-          "maxLevels": 1 $6
+          "maxLevels": 1 $6,
+          "locales": {
+            "en_us": 1 $7
+          }
         }
       },
     '''

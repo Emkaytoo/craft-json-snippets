@@ -426,33 +426,27 @@
     leftLabel: "Fields"
     prefix: "CraftMatrixLinkIt"
     body: '''
-      "new1": {
-        "name": "MatrixLinkit",
-        "handle": "matrixlinkit",
-        "fields": {
-          "new1": {
-            "name": "Linkit",
-            "handle": "linkit",
-            "instructions": "linkit",
-            "required": 0,
-            "type": "FruitLinkIt",
-            "typesettings": {
-              "types": [
-                "email",
-                "tel",
-                "custom",
-                "entry",
-                "asset"
-              ],
-              "defaultText": "",
-              "allowCustomText": 1,
-              "allowTarget": 1,
-              "entrySources": [],
-              "entrySelectionLabel": "Select an entry",
-              "assetSources": "*",
-              "assetSelectionLabel": "Select an asset"
-            }
-          }
+      "new$1": {
+        "name": "$2",
+        "handle": "$3",
+        "instructions": "$4",
+        "required": 0,
+        "type": "FruitLinkIt",
+        "typesettings": {
+          "types": [$5
+            "email",
+            "tel",
+            "custom",
+            "entry",
+            "asset"
+          ],
+          "defaultText": "",
+          "allowCustomText": 1,
+          "allowTarget": 1,
+          "entrySources": [],
+          "entrySelectionLabel": "Select an entry",
+          "assetSources": "*",
+          "assetSelectionLabel": "Select an asset"
         }
       },
     '''
